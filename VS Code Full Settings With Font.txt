@@ -1,0 +1,21 @@
+{
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "expand",
+  "editor.fontSize": 30,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "terminal.integrated.fontSize": 28,
+  "gitlens.views.showRelativeDateMarkers": false,
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "tailwindCSS.emmetCompletions": true,
+  "debug.console.fontSize": 24,
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "'operator mono','Fira Code','cascadia code',Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.inlineSuggest.enabled": true,
+  "workbench.colorTheme": "Community Material Theme Ocean",
+  "window.zoomLevel": -2
+}

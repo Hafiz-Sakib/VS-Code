@@ -1,0 +1,2 @@
+  "editor.fontFamily": "'operator mono','Fira Code','cascadia code',Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
