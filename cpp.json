@@ -1,0 +1,14 @@
+{
+  "cpp snippets": {
+    "prefix": "boilerplate",
+    "body": [
+      "#include<iostream>",
+      "using namespace std;",
+      "int main()",
+      "{",
+      "    return 0;",
+      "}"
+    ],
+    "description": "to produce the main snippet for cpp"
+  }
+}

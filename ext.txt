@@ -1,0 +1,4 @@
+c/c++
+code runner
+
+settings => extension => Run Code Configuration => Run in terminal => add tick mark && Save
