@@ -9,7 +9,7 @@
 
 ## 🙋‍♂️ About Me
 
-- <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30" align="center">  I’m currently working on **[Tour Guide](https://tour-guide-553b5.web.app/)**
+- <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30" align="center"> I’m currently working on **[Tour Guide](https://tour-guide-553b5.web.app/)**
 
 - <img src="https://i.postimg.cc/wv0g6Ndt/man-juggling.gif" width="30" align="center"> I’m currently learning **Data Structures and Algorithms & Solving Problems in Several Online Judges !!**
 
@@ -61,36 +61,71 @@
     </a>
 </p>
 
+<!-- Github All Stats Start -->
+
 ## 📊 My Github Stats
 
   <br/>
   <div align="center">
+
+  <!-- Summary Graph Start -->
+
+<p>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hafiz-sakib&theme=github_dark"/>
+</p>
+
+<!-- Summary Graph End -->
+
+<!-- Github Stats Start -->
+
 <a href="https://github.com/hafiz-sakib/github-readme-stats"><img alt="hafiz-sakib's Github Stats" src="https://github-readme-stats.vercel.app/api?username=hafiz-sakib&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" /></a>
-   
+
+<!-- Github Stats End -->
+
    <br/>
-   
+
+<!-- Commits Graph Start -->
+<p>
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=hafiz-sakib&theme=github_dark&utcOffset=8"/>
+</p>
+<!-- Commits Graph End -->
+
+<!--Top Language Graph Start -->
+
 <a href="https://github.com/hafiz-sakib/github-readme-stats"><img alt="hafiz-sakib's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hafiz-sakib&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" /></a>
+
+<!--Top Language Graph End -->
+
 </div>
+
   <br/>
+
 <div align="center">
 <b >Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.</div>
 
 <br/>
 
+<!-- Github All Stats End -->
+
 ## 📈 Competitive Programming
 
- <br/>
-  <br/>
+<br/>
+<br/>
 
-  <div align="center" >
+<div align="center" >
   
- <!-- Codeforces Card Started-->
+ <!-- Codeforces Stats Card Started-->
 
 <img height="280em" src="https://raw.githubusercontent.com/hafiz-sakib/cf-stats/main/output/light_card.svg#gh-dark-mode-only" />
 
-<!-- Codeforces Card Ended-->
+<!-- Codeforces Stats Card Ended-->
+
+<br/>
+<br/>
 
 <!-- Codeforces Ratings Max && Currents Started  -->
+
+<div>
 
 <a href="https://codeforces.com/profile/hafiz_sakib">
     <img src="https://raw.githubusercontent.com/hafiz-sakib/cf-stats/main/output/rating.svg" alt="Leet code rating" />
@@ -100,8 +135,9 @@
     <img src="https://raw.githubusercontent.com/hafiz-sakib/cf-stats/main/output/max_rating.svg" alt="Leet code rating" />
   </a>
 
-  <!-- Codeforces Ratings Max && Currents Ended  -->
+</div>
 
+  <!-- Codeforces Ratings Max && Currents Ended  -->
 
   </div>
 
@@ -112,12 +148,6 @@
 
 <br/>
 <br/>
-
-![](https://raw.githubusercontent.com/hafiz_Sakib/cf-stats/main/output/max_rating.svg)
-![](https://raw.githubusercontent.com/hafiz_Sakib/cf-stats/main/output/rating.svg)
-
-![](https://raw.githubusercontent.com/hafiz_sakib/cf-stats/main/output/light_card.svg#gh-dark-mode-only)
-![](https://raw.githubusercontent.com/hafiz_sakib/cf-stats/main/output/light_card.svg)
 
 ## Connect with me:
 
