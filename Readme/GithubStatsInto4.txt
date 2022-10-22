@@ -122,7 +122,13 @@
 
   <div align="center" >
 
-![](https://raw.githubusercontent.com/hafiz-sakib/cf-stats/main/output/light_card.svg#gh-dark-mode-only)
+<!-- Codeforces Card Started-->
+
+<img height="280em" src="https://raw.githubusercontent.com/hafiz-sakib/cf-stats/main/output/light_card.svg#gh-dark-mode-only" />
+
+<!-- Codeforces Card Ended-->
+
+<!-- Codeforces Ratings Max && Currents Started  -->
 
 <a href="https://codeforces.com/profile/hafiz_sakib">
     <img src="https://raw.githubusercontent.com/hafiz-sakib/cf-stats/main/output/rating.svg" alt="Leet code rating" />
@@ -131,6 +137,22 @@
   <a href="https://codeforces.com/profile/hafiz_sakib">
     <img src="https://raw.githubusercontent.com/hafiz-sakib/cf-stats/main/output/max_rating.svg" alt="Leet code rating" />
   </a>
+
+  <!-- Codeforces Ratings Max && Currents Ended  -->
+
+<!-- leetcode Card Started-->
+
+<!-- <img height="200em" src="https://leetcard.jacoblin.cool/hafiz_sakib?theme=dark&font=Karma&ext=contest" /> -->
+
+<!-- leetcode Card Ended-->
+
+<!--  Leetcode Ratings Started -->
+
+ <!-- <a href="https://leetcode.com/hafiz_sakib/">
+    <img src="https://cp-logo.vercel.app/leetcode/hafiz_sakib" alt="Leet code rating" />
+  </a> -->
+
+<!--  Leetcode Ratings Ended-->
 
   </div>
 
