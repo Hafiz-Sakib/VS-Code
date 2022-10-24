@@ -1,16 +1,22 @@
 <div>
 
-<a href="https://codeforces.com/profile/hafiz_sakib">
-    <img src="https://raw.githubusercontent.com/hafiz-sakib/cf-stats/main/output/max_rating.svg" alt="Leet code rating" />
+ <a href="https://codeforces.com/profile/hafiz_sakib">
+    <img src="https://raw.githubusercontent.com/hafiz-sakib/cf-stats/main/output/max_rating.svg" alt="CodeForces rating" />
+ </a>
 
-
-<a href="https://github.com/Meghna-DAS/github-profile-views-counter">
-    <img src="https://komarev.com/ghpvc/?username=Hafiz-Sakib">
+<a href="https://github.com/Hafiz-Sakib">
+    <img src="https://komarev.com/ghpvc/?username=Hafiz-Sakib" alt = "profile views count" />
 </a>
-<a href="https://github.com/SubhamRaoniar28?tab=followers"><img src="https://img.shields.io/github/followers/Hafiz-Sakib?label=Followers&style=social" alt="GitHub Badge"></a>
+
+<a href="https://github.com/Hafiz-Sakib">
+
+<img src="https://img.shields.io/github/followers/Hafiz-Sakib?label=Followers&style=social" alt="GitHub Badge">
+
+</a>
 
 </br>
 </br>
+
 </div>
 
 
