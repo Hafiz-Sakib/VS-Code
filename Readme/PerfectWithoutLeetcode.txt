@@ -1,4 +1,9 @@
 <div>
+
+<a href="https://codeforces.com/profile/hafiz_sakib">
+    <img src="https://raw.githubusercontent.com/hafiz-sakib/cf-stats/main/output/max_rating.svg" alt="Leet code rating" />
+
+
 <a href="https://github.com/Meghna-DAS/github-profile-views-counter">
     <img src="https://komarev.com/ghpvc/?username=Hafiz-Sakib">
 </a>
