@@ -25,6 +25,8 @@
 
 <!-- Banner Ended -->
 
+<!-- About Me Section Started-->
+
 <h1 align="center">Hi <img src="https://i.postimg.cc/52gnS1gM/waving-hand.gif" width="35px">, I'm Hafiz Sakib</h1>
 <h3 align="center">I'm a Passionate
 Competitive Programmer
@@ -45,6 +47,10 @@ Competitive Programmer
 - <img src="https://i.postimg.cc/CxwVKhdy/airplane.gif" width="30" align="center"> How to reach me **hafizsakib5@gmail.com**
 
 - <img src="https://i.postimg.cc/PrkMZBdQ/man-running.gif" width="30" align="center"> **I love to play Games and go to the GYM very often.**
+
+<!-- About Me Section Ended-->
+
+<!--  Languages and Tools Section Started-->
 
 # <img src="https://i.postimg.cc/kgnjkDYH/rocket.gif" width="60px" align="center"> Languages and Tools :
 
@@ -80,13 +86,19 @@ Competitive Programmer
 
 </p>
 
+<!--  Languages and Tools Section Ended-->
+
 <br/>
+
+<!-- Contribution Graph Started -->
 
 <p align="center">
     <a href="https://github.com/SubhamRaoniar28/github-readme-streak-stats">
         <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Subham Raoniar's streak" src="https://github-readme-streak-stats.herokuapp.com/?user=Hafiz-Sakib&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0"/>
     </a>
 </p>
+
+<!-- Contribution Graph Ended-->
 
 <!-- Github All Stats Start -->
 
@@ -135,6 +147,8 @@ Competitive Programmer
 
 <!-- Github All Stats End -->
 
+<!-- Competitive Programming Section Started -->
+
 # 📈 Competitive Programming
 
 <br/>
@@ -169,13 +183,21 @@ Competitive Programmer
 
   </div>
 
+  <!-- Competitive Programming Section Ended -->
+
 <br/>
 <br/>
+
+<!-- Activity & Contribution Graph Section Started -->
 
 <a href="https://github.com/SubhamRaoniar28/github-readme-activity-graph"><img alt="Subham Raoniar's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=Hafiz-Sakib&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
 
+<!-- Activity & Contribution Graph Section Ended -->
+
 <br/>
 <br/>
+
+<!-- Social Media Connection Section Started -->
 
 # <img src="https://i.postimg.cc/x8g3y3G3/man-zombie.gif" width="40px" align="center"> Connect with me :
 
@@ -191,7 +213,11 @@ Competitive Programmer
 
 </p>
 
+<!-- Social Media Connection Section Ended -->
+
 </br>
+
+<!-- Viewers And Followers Section Started -->
 
 # <img src="https://i.postimg.cc/kGcZL8CT/bottle-with-popping-cork.gif" width="40px" align="center">Viewers and Followers <img src="https://i.postimg.cc/0jcWVsG3/clinking-beer-mugs.gif" width="40px" align="center">
 
@@ -204,7 +230,11 @@ Competitive Programmer
 
 </div>
 
+<!-- Viewers And Followers Section Ended -->
+
 </br>
+
+<!-- Snake Eating Contribution Section Started -->
 
 <div align="center">
   <h2><img src="https://i.postimg.cc/FFBBq02n/snake.gif" width="40px" align="center"> Snake eating my contribution <img src="https://i.postimg.cc/FFBBq02n/snake.gif" width="40px" align="center"></h2>
@@ -214,3 +244,5 @@ Competitive Programmer
   <br>
   <br>
 </div>
+
+<!-- Snake Eating Contribution Section Ended -->
