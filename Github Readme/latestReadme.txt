@@ -23,8 +23,6 @@
 
 <img align="right" alt="Coding" width="100%" height="100%" src="./assets/Outer/1.gif">
 
-  <source src="./assets/Outer/letsCode.mp4" type="video/mp4">
-
 <!-- Ai Ended -->
 
 <h1 align="center">Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I'm Hafiz Sakib</h1>
