@@ -25,26 +25,30 @@
 
 <!-- Ai Ended -->
 
-<h1 align="center">Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I'm Hafiz Sakib</h1>
-<h3 align="center">I'm a passionate Full Stack Developer from Chittagong,Bangladesh.</h3>
+<h1 align="center">Hi <img src="https://i.postimg.cc/52gnS1gM/waving-hand.gif" width="35px">, I'm Hafiz Sakib</h1>
+<h3 align="center">I'm a Passionate
+Competitive Programmer
+& Full Stack Web Developer from Chittagong,Bangladesh.</h3>
 
 <img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/ab/c4/5b/abc45b9c356fbb846632f010aa3a44ef.gif">
 
-## 🙋‍♂️ About Me
+# <img src="https://i.postimg.cc/J4nzTh7r/man-raising-hand.gif" style="padding-bottom: 10px" width="40px" align="center"> About Me
 
-- <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30" align="center"> I’m currently working on **[Tour Guide](https://tour-guide-553b5.web.app/)**
+- <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30" align="center"> My Latest Project : **[Tour Guide](https://tour-guide-553b5.web.app/)**
 
-- <img src="https://i.postimg.cc/wv0g6Ndt/man-juggling.gif" width="30" align="center"> I’m currently learning **Data Structures and Algorithms & Solving Problems in Several Online Judges !!**
+- <img src="https://i.postimg.cc/RVzBjVT5/man-juggling.gif" width="30" align="center"> I’m Currently learning **Data Structures and Algorithms & Solving Problems in Several Online Judges !!**
 
-- 👯 I’m looking to collaborate on **OpenSource Projects**
+- <img src="https://i.postimg.cc/tJ9HnBJR/eyes.gif" width="30" align="center"> I’m looking to Collaborate on **OpenSource Projects**
 
-- 👨‍💻 All of my projects are available at **[My Portfolio](https://mr-hafiz-sakib.netlify.app/)**
+- <img src="https://i.postimg.cc/BZPFmNm7/bomb.gif" width="30" align="center"> All of my Projects are available at **[My Portfolio](https://mr-hafiz-sakib.netlify.app/)**
 
-- 📫 How to reach me **hafizsakib5@gmail.com**
+- <img src="https://i.postimg.cc/CxwVKhdy/airplane.gif" width="30" align="center"> How to reach me **hafizsakib5@gmail.com**
 
-- ⚡ Fun fact **I play games and go to the GYM very often.**
+- <img src="https://i.postimg.cc/PrkMZBdQ/man-running.gif" width="30" align="center"> **I love to play Games and go to the GYM very often.**
 
-## 🚀 Languages and Tools:
+# <img src="https://i.postimg.cc/kgnjkDYH/rocket.gif" width="60px" align="center"> Languages and Tools :
+
+</br>
 
 <p align="left">
    <a href="https://www.cprogramming.com/" target="_blank"><img src="https://img.icons8.com/color/48/undefined/c-programming.png"/> </a>
@@ -86,7 +90,7 @@
 
 <!-- Github All Stats Start -->
 
-## 📊 My Github Stats
+# <img src="https://i.postimg.cc/JhKs478t/trophy.gif" width="40px" align="center"> My Github Stats <img src="https://i.postimg.cc/ZYX2DrNK/smiling-face-with-sunglasses.gif" width="40px" align="center">
 
   <br/>
   <div align="center">
@@ -124,13 +128,14 @@
   <br/>
 
 <div align="center">
-<b >Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.</div>
+
+<img src="https://i.postimg.cc/W1q3cmWW/backhand-index-pointing-right.gif" width="30px" align="center"><b >Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.</div>
 
 <br/>
 
 <!-- Github All Stats End -->
 
-## 📈 Competitive Programming
+# 📈 Competitive Programming
 
 <br/>
 <br/>
@@ -172,7 +177,9 @@
 <br/>
 <br/>
 
-## Connect with me:
+# <img src="https://i.postimg.cc/x8g3y3G3/man-zombie.gif" width="40px" align="center"> Connect with me :
+
+</br>
 
 <p align="left">
 <a href = "https://codeforces.com/profile/hafiz_sakib"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48.5/000000/external-codeforces-programming-competitions-and-contests-programming-community-logo-shadow-tal-revivo.png" style="margin-right: 3px"/></a>
@@ -184,15 +191,23 @@
 
 </p>
 
-## ❤ Views and Followers
+</br>
 
-<a href="https://github.com/Meghna-DAS/github-profile-views-counter">
-    <img src="https://komarev.com/ghpvc/?username=Hafiz-Sakib">
-</a>
-<a href="https://github.com/SubhamRaoniar28?tab=followers"><img src="https://img.shields.io/github/followers/Hafiz-Sakib?label=Followers&style=social" alt="GitHub Badge"></a>
+# <img src="https://i.postimg.cc/kGcZL8CT/bottle-with-popping-cork.gif" width="40px" align="center">Viewers and Followers <img src="https://i.postimg.cc/0jcWVsG3/clinking-beer-mugs.gif" width="40px" align="center">
 
 <div align="center">
-  <h2>🐍 Snake eating my contribution 🐍</h2>
+ 
+ </br>
+
+<a href="https://github.com/Meghna-DAS/github-profile-views-counter"><img src="https://komarev.com/ghpvc/?username=Hafiz-Sakib">
+</a> <a href="https://github.com/SubhamRaoniar28?tab=followers"><img src="https://img.shields.io/github/followers/Hafiz-Sakib?label=Followers&style=social" alt="GitHub Badge"></a>
+
+</div>
+
+</br>
+
+<div align="center">
+  <h2><img src="https://i.postimg.cc/FFBBq02n/snake.gif" width="40px" align="center"> Snake eating my contribution <img src="https://i.postimg.cc/FFBBq02n/snake.gif" width="40px" align="center"></h2>
   <br>
   <img alt="snake eating my contribution" src="https://github.com/Hafiz-Sakib/Hafiz-Sakib/blob/output/github-contribution-grid-snake.svg">
   <br>
