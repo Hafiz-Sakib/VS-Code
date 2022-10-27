@@ -33,7 +33,7 @@ Competitive Programmer
 & Full Stack Web Developer from Chittagong,Bangladesh.</h3>
 
 <p align="center">
-	<img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/ab/c4/5b/abc45b9c356fbb846632f010aa3a44ef.gif">
+	<img align="right" style="margin-top: 75px;" alt="Coding" width="400" src="https://i.pinimg.com/originals/ab/c4/5b/abc45b9c356fbb846632f010aa3a44ef.gif">
 
 # <img src="https://i.postimg.cc/J4nzTh7r/man-raising-hand.gif" style="padding-bottom: 10px" width="40px" align="center"> About Me
 
