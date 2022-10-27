@@ -19,11 +19,11 @@
 
 </div>
 
-<!-- Ai Started -->
+<!-- Banner Started -->
 
 <img align="right" alt="Coding" width="100%" height="100%" src="./assets/Outer/1.gif">
 
-<!-- Ai Ended -->
+<!-- Banner Ended -->
 
 <h1 align="center">Hi <img src="https://i.postimg.cc/52gnS1gM/waving-hand.gif" width="35px">, I'm Hafiz Sakib</h1>
 <h3 align="center">I'm a Passionate
