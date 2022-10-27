@@ -1,0 +1,23 @@
+<!-- Leetcode Stats Card Started-->
+
+<br/>
+<br/>
+
+<img height="200em" src="https://leetcard.jacoblin.cool/hafiz_sakib?theme=dark&font=Karma&ext=contest" />
+
+<!-- Leetcode Stats Card Ended-->
+
+<br/>
+<br/>
+
+<!--  Leetcode Ratings Card Started -->
+
+ <div>
+ 
+ <a href="https://leetcode.com/hafiz_sakib/">
+    <img src="https://cp-logo.vercel.app/leetcode/hafiz_sakib" alt="Leet code rating" />
+  </a>
+
+ </div>
+
+<!--  Leetcode Ratings Card Ended-->
