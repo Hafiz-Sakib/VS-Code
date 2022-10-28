@@ -34,7 +34,7 @@ Competitive Programmer
 
 <p align="center">
 	<div width="50%">
-<img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/ab/c4/5b/abc45b9c356fbb846632f010aa3a44ef.gif">
+<img align="right" alt="Coding" width="400" style="margin-top: 70px;" src="https://i.pinimg.com/originals/ab/c4/5b/abc45b9c356fbb846632f010aa3a44ef.gif">
 
 </div>
 
