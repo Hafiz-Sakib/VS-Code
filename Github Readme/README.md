@@ -33,7 +33,12 @@ Competitive Programmer
 & Full Stack Web Developer from Chittagong,Bangladesh.</h3>
 
 <p align="center">
-	<img align="right" style="margin-right: 500px;" alt="Coding" width="400" src="https://i.pinimg.com/originals/ab/c4/5b/abc45b9c356fbb846632f010aa3a44ef.gif">
+	<div width="50%">
+<img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/ab/c4/5b/abc45b9c356fbb846632f010aa3a44ef.gif">
+
+</div>
+
+<div width="50%">
 
 # <img src="https://i.postimg.cc/J4nzTh7r/man-raising-hand.gif" style="padding-bottom: 10px" width="40px" align="center"> About Me
 
@@ -48,6 +53,8 @@ Competitive Programmer
 - <img src="https://i.postimg.cc/CxwVKhdy/airplane.gif" width="30" align="center"> How to reach me **hafizsakib5@gmail.com**
 
 - <img src="https://i.postimg.cc/PrkMZBdQ/man-running.gif" width="30" align="center"> **I love to play Games and go to the GYM very often.**
+
+  </div>
 
 </p>
 
