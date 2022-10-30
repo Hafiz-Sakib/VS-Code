@@ -29,8 +29,7 @@
 
 <h1 align="center">Hi <img src="https://i.postimg.cc/52gnS1gM/waving-hand.gif" width="35px">, I'm Hafiz Sakib</h1>
 <h3 align="center">I'm a Passionate
-Competitive Programmer
-& Full Stack Web Developer from Chittagong,Bangladesh.</h3>
+<em><strong>Competitive Programmer</em></strong></em> & <em><strong>Full Stack Web Developer</em></strong> from Chittagong,Bangladesh<img src="https://i.postimg.cc/1X7dTyX7/smiling-face-with-halo.gif" width="35px" align="center"></h3>
 
 <img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/ab/c4/5b/abc45b9c356fbb846632f010aa3a44ef.gif">
 
@@ -40,7 +39,7 @@ Competitive Programmer
 
 - <img src="https://i.postimg.cc/RVzBjVT5/man-juggling.gif" width="30" align="center"> I’m Currently learning **Data Structures and Algorithms & Solving Problems in Several Online Judges !!**
 
-- <img src="https://i.postimg.cc/tJ9HnBJR/eyes.gif" width="30" align="center"> I’m looking to Collaborate on **OpenSource Projects**
+- <img src="https://i.postimg.cc/kXJ2sTt8/eyes.gif" width="30" align="center"> I’m looking to Collaborate on **OpenSource Projects**
 
 - <img src="https://i.postimg.cc/BZPFmNm7/bomb.gif" width="30" align="center"> All of my Projects are available at **[My Portfolio](https://mr-hafiz-sakib.netlify.app/)**
 
