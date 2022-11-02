@@ -33,7 +33,7 @@
       "#define cn cout<<\"No\\n\"",
       "#define setp(n) setprecision(n)",
       "#define mem(arr,val) memset(arr,val,sizeof(arr));",
-      "#define debug(x) cerr<<x<<dl;",
+      "#define debug(x) cerr<<x<<newline;",
       "#define here fprintf(stderr, \"====I am Here====\\n\");",
       "#define FOR(data) for(auto it=data.begin();it!=data.end();it++)",
       "#define Boost ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)",
