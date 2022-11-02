@@ -31,7 +31,7 @@
       "#define cN cout<<\"NO\\n\"",
       "#define cy cout<<\"Yes\\n\"",
       "#define cn cout<<\"No\\n\"",
-      "#define setp(n) setprecision(n)",
+      "#define setp(n) fixed << setprecision(n)",
       "#define mem(arr,val) memset(arr,val,sizeof(arr));",
       "#define debug(x) cerr<<x<<newline;",
       "#define here fprintf(stderr, \"====I am Here====\\n\");",
