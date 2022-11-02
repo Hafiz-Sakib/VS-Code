@@ -1,6 +1,6 @@
 {
   "Template": {
-    "prefix": "incl",
+    "prefix": "boilerplate",
     "body": [
       "//Bismillahir Rahmanir Rahim",
       "#include<bits/stdc++.h>",
@@ -22,8 +22,8 @@
       "#define S string",
       "#define fi first",
       "#define se second",
-      "#define sp ' '",
-      "#define dl \"\\n\"",
+      "#define space ' '",
+      "#define newline \"\\n\"",
       "#define all(data) data.begin(),data.end()",
       "#define b() begin()",
       "#define e() end()",
@@ -62,7 +62,7 @@
       "    Boost;",
       "",
       "    int t=1;      $1 cin>>t;",
-      "    for(int i=1;i<=t;i++)",
+      "    while(t--)",
       "    {",
       "        //cout<<\"Case \"<<i<<\" : \";",
       "        Boom();",
@@ -92,7 +92,7 @@
     "body": [
       "ll int round(ll int x,ll int y)",
       "{",
-      "	return ((x+y)/2)/y;",
+      "return ((x+y)/2)/y;",
       "}"
     ],
     "description": "round"
@@ -109,7 +109,7 @@
       "string tok;",
       "while(getline(stream, tok, ' '))",
       "{",
-      "	cout<<tok<<endl;",
+      "cout<<tok<<endl;",
       "}"
     ],
     "description": "token"
