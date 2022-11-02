@@ -12,6 +12,14 @@
       "#define cn cout<<\"No\\n\"",
       "#define space ' '",
       "#define newline \"\\n\"",
+      "#define read3   long int a, b, c; cin >> a >> b >> c;",
+      "#define read2   long int a, b; cin >> a >> b;",
+      "#define read1   long int a; cin >> a ;",
+      "#define write1 cout << a << newline;",
+      "#define write2 cout << a << newline << b << newline;",
+      "#define write3 cout << a << newline << b << newline << c << newline;",
+      "#define fr(a, b) for (int i = a; i < b; i++)",
+      "#define rep(i, a, b) for (int i = a; i < b; i++)",
       "int main()",
       "{",
       "    Boost;",
@@ -25,8 +33,7 @@
       "",
       "    return 0;",
       "",
-      "}",
-      ""
+      "}"
     ],
     "description": "to produce the main snippet for cpp"
   }
