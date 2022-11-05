@@ -6,6 +6,7 @@
       "#include <bits/stdc++.h>",
       "using namespace std;",
       "#define Boost ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)",
+      "#define ll long long int;",
       "#define cY cout<<\"YES\\n\"",
       "#define cN cout<<\"NO\\n\"",
       "#define cy cout<<\"Yes\\n\"",
