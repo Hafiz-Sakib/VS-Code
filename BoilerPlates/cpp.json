@@ -12,7 +12,7 @@
       "#define cy cout<<\"Yes\\n\"",
       "#define cn cout<<\"No\\n\"",
       "#define space ' '",
-      "#define newline \"\\n\"",
+      "#define endl \"\\n\"",
       "int main()",
       "{",
       "    Boost;",

@@ -23,7 +23,7 @@
       "#define fi first",
       "#define se second",
       "#define space ' '",
-      "#define newline \"\\n\"",
+      "#define endl \"\\n\"",
       "#define all(data) data.begin(),data.end()",
       "#define b() begin()",
       "#define e() end()",
