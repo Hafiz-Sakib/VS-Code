@@ -24,5 +24,16 @@
   "window.zoomLevel": -2,
   "code-runner.runInTerminal": true,
   "settingsSync.ignoredSettings": [],
-  "liveServer.settings.AdvanceCustomBrowserCmdLine": ""
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "npm.keybindingsChangedWarningShown": true,
+  "http.proxyAuthorization": null,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true
 }
