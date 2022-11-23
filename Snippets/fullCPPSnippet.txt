@@ -1,0 +1,703 @@
+{
+  "Template": {
+    "prefix": "Sakib",
+    "body": [
+      "//Bismillahir Rahmanir Rahim",
+      "/*",
+      "",
+      "string author;",
+      "author = Hafiz_Sakib;",
+      "",
+      "*/",
+      "#include<bits/stdc++.h>",
+      "#define ull unsigned long long",
+      "#define ll long long",
+      "#define pb push_back",
+      "#define mp make_pair",
+      "#define pob pop_back",
+      "#define in insert",
+      "#define vi vector<ll int>",
+      "#define vs vector<string>",
+      "#define pii pair<ll int,ll int>",
+      "#define psi pair<string,ll int>",
+      "#define pis pair<ll int,string>",
+      "#define mii map<ll int,ll int>",
+      "#define mib map<ll int,bool>",
+      "#define msi map<string,ll int>",
+      "#define mis map<ll int,string>",
+      "#define S string",
+      "#define fi first",
+      "#define se second",
+      "#define space ' '",
+      "#define endl \"\\n\"",
+      "#define all(data) data.begin(),data.end()",
+      "#define rall(data) data.rbegin(),data.rend()",
+      "#define b() begin()",
+      "#define e() end()",
+      "#define YES cout<<\"YES\\n\"",
+      "#define NO cout<<\"NO\\n\"",
+      "#define yes cout<<\"Yes\\n\"",
+      "#define no cout<<\"No\\n\"",
+      "#define read3   long int a, b, c; cin >> a >> b >> c;",
+      "#define read2   long int a, b; cin >> a >> b;",
+      "#define read1   long int a; cin >> a ;",
+      "#define write1 cout << a << endl;",
+      "#define write2 cout << a << endl << b << endl;",
+      "#define write3 cout << a << endl << b << endl << c << endl;",
+      "#define fr(a, b) for (int i = a; i < b; i++)",
+      "#define rep(i, a, b) for (int i = a; i < b; i++)",
+      "#define setp(n) fixed << setprecision(n)",
+      "#define mem(arr,val) memset(arr,val,sizeof(arr));",
+      "#define debug(x) cerr<<x<<endl;",
+      "#define here fprintf(stderr, \"====I am Here====\\n\");",
+      "#define FOR(data) for(auto it=data.begin();it!=data.end();it++)",
+      "#define Boost ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)",
+      "#define maxx 100005",
+      "#define EPS 1e-9",
+      "using namespace std;",
+      "const double PI = acos(-1);",
+      "ll int hp = 1e9+7;",
+      "",
+      "void Boom()",
+      "{",
+      "    //Let's Move",
+      "    $2",
+      "}",
+      "",
+      "int main()",
+      "{",
+      "    Boost;",
+      "",
+      "    int t=1;",
+      "    cin>>t;",
+      "    while(t--)",
+      "    {",
+      "        //cout<<\"Case \"<<t<<\" : \";$1",
+      "        Boom();",
+      "    }",
+      "",
+      "    return 0;",
+      "",
+      "}",
+      ""
+    ],
+    "description": "Template"
+  },
+
+  "ceil": {
+    "prefix": "ceil",
+    "body": [
+      "ll int ceil(ll int x,ll int y)",
+      "{",
+      "    return (x+(y-1))/y;",
+      "}   "
+    ],
+    "description": "ceil"
+  },
+
+  "round": {
+    "prefix": "round",
+    "body": [
+      "ll int round(ll int x,ll int y)",
+      "{",
+      "return ((x+y)/2)/y;",
+      "}"
+    ],
+    "description": "round"
+  },
+  "strtoint": {
+    "prefix": "strtoint",
+    "body": ["stringstream geek(str);", "int intr;", "geek >> intr;"],
+    "description": "strtoint"
+  },
+  "token": {
+    "prefix": "token",
+    "body": [
+      "stringstream stream(str);",
+      "string tok;",
+      "while(getline(stream, tok, ' '))",
+      "{",
+      "cout<<tok<<endl;",
+      "}"
+    ],
+    "description": "token"
+  },
+  "unique": {
+    "prefix": "unique",
+    "body": [
+      "vector<int>::iterator ip;",
+      "ip = unique(data.begin(),data.end());",
+      "data.resize(distance(data.begin(), ip));",
+      "cout<<data.size()<<endl;"
+    ],
+    "description": "unique"
+  },
+  "primefector": {
+    "prefix": "primefector",
+    "body": [
+      "vector<int>primefactor;",
+      "while (n % 2 == 0)  ",
+      "{  ",
+      "    primefactor.pb(2);",
+      "    n = n/2;  ",
+      "}  ",
+      "for(int i = 3; i <= sqrt(n); i = i + 2)  ",
+      "{  ",
+      "    while (n % i == 0)  ",
+      "    {  ",
+      "        primefactor.pb(i);",
+      "        n = n/i;  ",
+      "    }  ",
+      "}  ",
+      "if (n > 2)  primefactor.pb(n);"
+    ],
+    "description": "primefector"
+  },
+  "isprime": {
+    "prefix": "isprime",
+    "body": [
+      "bool isPrime(int n)",
+      "{",
+      "    if (n <= 1)",
+      "        return false;",
+      "    if (n <= 3)",
+      "        return true;",
+      "    if (n % 2 == 0 || n % 3 == 0)",
+      "        return false;",
+      "    for (int i = 5; i * i <= n; i = i + 6)",
+      "        if (n % i == 0 || n % (i + 2) == 0)",
+      "            return false;",
+      "  ",
+      "    return true;",
+      "}"
+    ],
+    "description": "isprime"
+  },
+  "lcm": {
+    "prefix": "lcm",
+    "body": [
+      "ll int lcm(ll int a, ll int b) ",
+      "{",
+      "  return (a / gcd(a, b)) * b;",
+      "  ",
+      "  //return (a / __gcd(a, b)) * b;",
+      "}"
+    ],
+    "description": "lcm"
+  },
+  " lcm": {
+    "prefix": "memset",
+    "body": ["memset($1,0,sizeof($1));"],
+    "description": "lcm"
+  },
+  "Graph Array": {
+    "prefix": "grparr",
+    "body": [
+      "vector<ll int>adj[maxx];",
+      "bool vis[maxx];",
+      "//int level[maxx];"
+    ],
+    "description": "Graph Array"
+  },
+
+  "Graph Input": {
+    "prefix": "grpin",
+    "body": [
+      "ll int node,edge;",
+      "cin>>node>>edge;",
+      "for(ll int i=0;i<edge;i++)",
+      "{",
+      "    ll int n1,n2; ",
+      "    cin>>n1>>n2;",
+      "    adj[n1].push_back(n2);",
+      "    adj[n2].push_back(n1); ",
+      "}"
+    ],
+    "description": "Graph Input"
+  },
+
+  "Graph Output": {
+    "prefix": "grpout",
+    "body": [
+      "for(int i=0;i<node;i++)",
+      "{",
+      "    cout<<\"Adjacent list of : \"<<i<<\"->\";",
+      "    for(auto j:adj[i])",
+      "    {",
+      "        cout<<j<<\" \";",
+      "    }",
+      "    cout<<endl;",
+      "}",
+      ""
+    ],
+    "description": "Graph Output"
+  },
+
+  "Graph Clear": {
+    "prefix": "grpclr",
+    "body": [
+      "for(int i=0;i<node;i++)",
+      "{",
+      "    adj[i].clear();",
+      "    vis[i]=0;",
+      "    //level[i]=0;",
+      "}",
+      ""
+    ],
+    "description": "Graph Clear"
+  },
+
+  "Graph With Cost": {
+    "prefix": "grpcost",
+    "body": [
+      "//vector<pair<ll int,ll int>>adj[maxx];",
+      "",
+      "ll int node,edge;",
+      "cin>>node>>edge;",
+      "for(ll int i=0;i<edge;i++)",
+      "{",
+      "    ll int n1,n2,cost; ",
+      "    cin>>n1>>n2>>cost;",
+      "    adj[n1].push_back({n2,cost});",
+      "    adj[n2].push_back({n1,cost}); ",
+      "}",
+      ""
+    ],
+    "description": "Graph With Cost"
+  },
+
+  "Graph With Cost Output": {
+    "prefix": "grpcostout",
+    "body": [
+      "for(int i=0;i<node;i++)",
+      "{",
+      "    for(auto x:adj[i])",
+      "    {",
+      "        cout<<i<<sp<<x.fi<<\" weight \"<<x.se<<dl;",
+      "    }",
+      "    cout<<endl;",
+      "}",
+      ""
+    ],
+    "description": "Graph With Cost Output"
+  },
+
+  "2D Array Graph Validation": {
+    "prefix": "isvalid",
+    "body": [
+      "bool vis[maxx][maxx];",
+      "int dist[maxx][maxx];",
+      "int dirx[8] = { -1, 0, 0, 1, -1, -1, 1, 1 };",
+      "int diry[8] = { 0, 1, -1, 0, -1, 1, -1, 1 };",
+      "",
+      "bool isValid(int row, int col)",
+      "{",
+      "    if (row < 0 || col < 0 || row >= ROW || col >= COL)",
+      "        return false;",
+      "    if (vis[row][col])",
+      "        return false;",
+      "    return true;",
+      "}"
+    ],
+    "description": "2D Array Graph Validation"
+  },
+
+  "BFS 2D Array": {
+    "prefix": "bfs2d",
+    "body": [
+      "",
+      "void bfs(int srcX, int srcY)",
+      "{",
+      "    queue<pair<int, int> > q;",
+      "    q.push(make_pair(srcX, srcY));",
+      "    dist[srcX][srcY]=0;",
+      "    vis[srcX][srcY]=1;",
+      "    ",
+      "    //if(srcX==tarX && srcY==tarY)return;",
+      "",
+      "    while (!q.empty()) ",
+      "    {",
+      "        pair<int, int> curr = q.front();",
+      "        q.pop();",
+      "",
+      "        int row = curr.first;",
+      "        int col = curr.second;",
+      "",
+      "       for (int i = 0; i < 8; i++)",
+      "        if(isValid(row+dirx[i],col+diry[i]))",
+      "        {",
+      "            int adjx = row + dirx[i];",
+      "            int adjy = col + diry[i];",
+      "",
+      "            dist[adjx][adjy]=dist[row][col]+1;",
+      "            vis[adjx][adjy]=1;",
+      "",
+      "            q.push({ adjx, adjy });",
+      "        }",
+      "    }",
+      "}",
+      ""
+    ],
+    "description": "BFS 2D Array"
+  },
+
+  "BFS List": {
+    "prefix": "bfs",
+    "body": [
+      "void bfs (int src)",
+      "{",
+      "  queue < int >q;",
+      "  q.push (src);",
+      "  color[src] = true;",
+      "  level[src] = 0;",
+      "  while (!q.empty ())",
+      "    {",
+      "      int curr = q.front ();",
+      "      q.pop ();",
+      "    for (auto child:adj[curr])",
+      "    {",
+      "      if (color[child] == 0)",
+      "        {",
+      "          q.push (child);",
+      "          level[child] = level[curr] + 1;   // current node",
+      "          color[child] = 1;",
+      "        }",
+      "    }",
+      "    }",
+      "}"
+    ],
+    "description": "BFS List"
+  },
+
+  "Bipertide": {
+    "prefix": "biper",
+    "body": [
+      "bool biper(int v,int c)",
+      "{",
+      "    color[v]=1;",
+      "    col[v]=c;",
+      "    for(int child:adj[v])",
+      "    {",
+      "        if(color[child==0])",
+      "        {",
+      "            if(biper(child,c^1)==false)return false;",
+      "            else if(col[v]==col[child])return false;",
+      "        }",
+      "    }",
+      "    return true;",
+      "}"
+    ],
+    "description": "Bipertide"
+  },
+
+  "Cycle Detection": {
+    "prefix": "cycledet",
+    "body": [
+      "bool cycledet(int node ,int par)",
+      "{",
+      "    vis[node]=1;",
+      "    for(int child:adj[node])",
+      "    {",
+      "        if(vis[child]==0)",
+      "        {",
+      "            if(cycledet(child,node)==true)return true;",
+      "        }",
+      "        else ",
+      "        if(child!=par)return true;",
+      "    }",
+      "    return false;",
+      "}"
+    ],
+    "description": "Cycle Detection"
+  },
+
+  "Cycle detection for directed graph": {
+    "prefix": "cycledet_dir",
+    "body": [
+      "",
+      "bool st[maxx];",
+      "bool cycledet(int node,int par)",
+      "{",
+      "    st[node]=1;",
+      "    vis[node]=1;",
+      "    for(int child:adj[node])",
+      "    {",
+      "        if(vis[child]==0)",
+      "        {",
+      "            if(cycledet(child,node)==true)return true;",
+      "        }",
+      "        if(st[child])return true;",
+      "    }",
+      "    st[node]=0;",
+      "    return false;",
+      "",
+      "}"
+    ],
+    "description": "Cycle detection for directed graph"
+  },
+
+  "DFS 2D Array": {
+    "prefix": "dfs2d",
+    "body": [
+      "",
+      "void dfs(int srcX, int srcY)",
+      "{",
+      "    stack<pair<int, int> > st;",
+      "    st.push(make_pair(srcX, srcY));",
+      "    while (!st.empty()) ",
+      "    {",
+      "        pair<int, int> curr = st.top();",
+      "        st.pop();",
+      "        int row = curr.first;",
+      "        int col = curr.second;",
+      "        if (!isValid(row, col))",
+      "            continue;",
+      "",
+      "        vis[row][col] = true;",
+      "       // cnt++;",
+      "",
+      "       for (int i = 0; i < 4; i++)",
+      "        {",
+      "            int adjx = row + dirx[i];",
+      "            int adjy = col + diry[i];",
+      "            st.push({ adjx, adjy });",
+      "        }",
+      "    }",
+      "}",
+      "",
+      ""
+    ],
+    "description": "DFS 2D Array"
+  },
+
+  "DFS List": {
+    "prefix": "dfs",
+    "body": [
+      "void dfs(int v)",
+      "{",
+      "    vis[v]=1;",
+      "    //cout<<v<< \"->\";",
+      "    for(auto child:adj[v])",
+      "    {",
+      "        if(!vis[child]) dfs(child);",
+      "    }",
+      "}"
+    ],
+    "description": "DFS List"
+  },
+
+  "Sub Tree": {
+    "prefix": "subtree",
+    "body": [
+      "/*given two nodes, find whether one node lies in the subtree of other node*/",
+      "",
+      "//node y is a subtree of node x",
+      "//in time x > y",
+      "//out time x < y",
+      "",
+      "int timer=1;",
+      "bool subtree(int v)",
+      "{",
+      "vis[v]=1;",
+      "in[v]=timer++;",
+      "for(int child:adj[v])",
+      "{",
+      "if(vis[child]==0)subtree(child);",
+      "}",
+      "out[v]=timer++;",
+      "",
+      "}"
+    ],
+    "description": "Sub Tree"
+  },
+
+  "Longest Path": {
+    "prefix": "longestpath",
+    "body": [
+      "int maxD,maxNode;",
+      "void longestpath(int node,int d)",
+      "{",
+      "vis[node]=1;",
+      "if(d>maxD)maxD=d,maxNode=node;",
+      "",
+      "for(int child :adj[node])",
+      "{",
+      "if(vis[child]==0)",
+      "{",
+      "longestpath(child,d+1)",
+      "}",
+      "}",
+      "}",
+      "",
+      "//For Main Function",
+      "int main()",
+      "// {",
+      "// //***grp__input",
+      "// maxD=-1;",
+      "// longestpath(1,0);",
+      "// memset(vis,0,sizeof(vis));",
+      "// maxD=-1;",
+      "// longestpath(maxNode,0);",
+      "// cout<<maxD;",
+      "// }"
+    ],
+    "description": "Longest Path"
+  },
+
+  "Sub Tree Size": {
+    "prefix": "subtreesize",
+    "body": [
+      "int subtree(int node)",
+      "{",
+      "vis[node]=1;",
+      "int curr_size=1;",
+      "for(int child:adj[node])",
+      "{",
+      "if(vis[child]==0)",
+      "{",
+      "curr_size=curr_size+subtree(child)",
+      "}",
+      "subsize[node]=curr_size;",
+      "return curr_size;",
+      "}",
+      "}"
+    ],
+    "description": "Sub Tree Size"
+  },
+
+  "Finding Bridegs": {
+    "prefix": "findbridge",
+    "body": [
+      "int in[maxx],low[maxx];",
+      "bool vis[maxx];",
+      "int timer=0;",
+      "void dfs (int node,int par) //dfs(1,-1)",
+      "{",
+      "    vis[node]=1;",
+      "    in[node]=low[node]=timer++;",
+      "    for(int child : adj[node])",
+      "    {",
+      "        if(child==par)continue;",
+      "        if(vis[child]==1)",
+      "        {",
+      "            //edge node - child is a back edge",
+      "            low[node]=min(low[node],in[child]);",
+      "        }",
+      "        else",
+      "        {",
+      "            // edge node -child forward edge",
+      "            dfs(child,node);",
+      "            if(low[child]>in[node])",
+      "                cout<<node<<sp<<child<<\" is  a Brideges\"<<endl;",
+      "",
+      "            low[node]=min(low[node],in[child]);",
+      "        }",
+      "    }",
+      "}",
+      "",
+      ""
+    ],
+    "description": "Finding Bridegs"
+  },
+  "First Occourence": {
+    "prefix": "firstoccur",
+    "body": [
+      "int first(int arr[], int x, int n)",
+      "{",
+      "int low = 0, high = n - 1, res = -1;",
+      "while (low <= high)",
+      "{",
+      "int mid = (low + high) / 2;",
+      "",
+      "if (arr[mid] >= x)",
+      "high = mid - 1,res=mid;",
+      "else",
+      "low = mid + 1;",
+      "}",
+      "return res;",
+      "}"
+    ],
+    "description": "First Occourence"
+  },
+
+  "Last Occourence": {
+    "prefix": "lastoccur",
+    "body": [
+      "",
+      "int last(int arr[], int x, int n)",
+      "{",
+      "int low = 0, high = n - 1, res = -1;",
+      "while (low <= high)",
+      "{",
+      "int mid = (low + high) / 2;",
+      "if (arr[mid] <= x)",
+      "res=mid,low = mid + 1;",
+      "else",
+      "high = mid - 1;",
+      "}",
+      "return res;",
+      "}"
+    ],
+    "description": "Last Occourence"
+  },
+  "Binary Search": {
+    "prefix": "binarysrc",
+    "body": [
+      "int binary(int arr[],int x,int n)",
+      "{",
+      "int low = 0, high = n - 1;",
+      "while (low <= high)",
+      "{",
+      "int mid = low + ((high - low) / 2);",
+      "if(arr[mid] == x)",
+      "return mid;",
+      "else if (arr[mid] > x) ",
+      "high = mid - 1;",
+      "else",
+      "low = mid + 1;",
+      "}",
+      "return -1;",
+      "}"
+    ],
+    "description": "Binary Search"
+  },
+  "Upper Bound": {
+    "prefix": "upperbound",
+    "body": [
+      "int first(int arr[], int x, int n)",
+      "{",
+      "int low = 0, high = n - 1, res = -1;",
+      "while (low <= high)",
+      "{",
+      "int mid = low + ((high - low) / 2);",
+      "if (arr[mid] >= x)",
+      "high = mid - 1,res=mid;",
+      "else",
+      "low = mid + 1;",
+      "}",
+      "return res;",
+      "}"
+    ],
+    "description": "Upper Bound"
+  },
+  "Lower Bound": {
+    "prefix": "lowerbound",
+    "body": [
+      "int last(int arr[], int x, int n)",
+      "{",
+      "int low = 0, high = n - 1, res = -1;",
+      "while (low <= high)",
+      "{",
+      "int mid = low + ((high - low) / 2);",
+      "if (arr[mid] <= x)",
+      "res=mid,low = mid + 1;",
+      "else",
+      "high = mid - 1;",
+      "}",
+      "return res;",
+      "}",
+      ""
+    ],
+    "description": "Lower Bound"
+  }
+}
