@@ -3,6 +3,12 @@
     "prefix": "boilerplate",
     "body": [
       "//Bismillahir Rahmanir Rahim",
+      "/*",
+      "",
+      "string author;",
+      "author = Hafiz_Sakib;",
+      "",
+      "*/",
       "#include<bits/stdc++.h>",
       "#define ull unsigned long long",
       "#define ll long long",
