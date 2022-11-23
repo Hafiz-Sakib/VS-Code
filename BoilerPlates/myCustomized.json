@@ -19,7 +19,7 @@
       "#define cy cout<<\"Yes\\n\"",
       "#define cn cout<<\"No\\n\"",
       "#define space ' '",
-      "#define newline \"\\n\"",
+      "#define endl \"\\n\"",
       "#define read3   long int a, b, c; cin >> a >> b >> c;",
       "#define read2   long int a, b; cin >> a >> b;",
       "#define read1   long int a; cin >> a ;",
