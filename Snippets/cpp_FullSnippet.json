@@ -48,6 +48,7 @@
       "#define rep(i, a, b) for (int i = a; i < b; i++)",
       "#define setp(n) fixed << setprecision(n)",
       "#define mem(arr,val) memset(arr,val,sizeof(arr));",
+      "#define ignore cin.ignore(numeric_limits<streamsize>::max(),'\\n')",
       "#define debug(x) cerr<<x<<endl;",
       "#define here fprintf(stderr, \"====I am Here====\\n\");",
       "#define FOR(data) for(auto it=data.begin();it!=data.end();it++)",
