@@ -44,6 +44,8 @@
       "#define write1 cout << a << endl;",
       "#define write2 cout << a << endl << b << endl;",
       "#define write3 cout << a << endl << b << endl << c << endl;",
+      "#define stringLower(data) transform(data.begin(), data.end(), data.begin(), ::tolower)",
+      "#define stringUpper(data) transform(data.begin(), data.end(), data.begin(), ::toupper)",
       "#define fr(a, b) for (int i = a; i < b; i++)",
       "#define rep(i, a, b) for (int i = a; i < b; i++)",
       "#define setp(n) fixed << setprecision(n)",
