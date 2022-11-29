@@ -1,15 +1,18 @@
 {
   "cpp snippets": {
-    "prefix": "boilerplate",
+    "prefix": "Sakib",
     "body": [
       "/*",
+      "",
       "string author;",
       "author = Hafiz_Sakib;",
+      "",
       "*/",
       "#include<iostream>",
       "#include <bits/stdc++.h>",
       "using namespace std;",
       "#define endl \"\\n\"",
+      "#define ignore cin.ignore(numeric_limits<streamsize>::max(),'\\n')",
       "#define Boost ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)",
       "int main()",
       "{",
@@ -20,5 +23,10 @@
       "}"
     ],
     "description": "to produce the main snippet for cpp"
+  },
+  "Foreach Loop": {
+    "prefix": "foreach",
+    "body": ["for(auto u : $1){", " ", "}"],
+    "description": "to produce the foreach snippet for cpp"
   }
 }

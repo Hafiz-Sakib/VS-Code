@@ -98,6 +98,12 @@
     "description": "ceil"
   },
 
+  "Foreach Loop": {
+    "prefix": "foreach",
+    "body": ["for(auto u : $1){", " ", "}"],
+    "description": "to produce the foreach snippet for cpp"
+  },
+
   "round": {
     "prefix": "round",
     "body": [
