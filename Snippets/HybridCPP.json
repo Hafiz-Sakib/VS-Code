@@ -77,7 +77,6 @@
       "",
       "#define gcd(a,b) __gcd(a,b)",
       "#define sqr(a) ((a) * (a))",
-      "#define EPS 1e-9",
       "#define MOD 1000000007",
       "#define maxx 100005",
       "ll int hp = 1e9+7;",
