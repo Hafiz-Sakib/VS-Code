@@ -17,7 +17,6 @@
       "",
       "#define vi vector<ll int>",
       "#define vs vector<string>",
-
       "#define vvi vector<vector<ll int>>",
       "#define vpii vector<pair<ll int, ll int>>",
       "#define vpsi vector<pair<string, ll int>>",
