@@ -52,7 +52,7 @@
   }
 }
 
-/*  Full Snippet Started  */
+/* Current Snippet Started */
 
 // {
 //   "Template": {
@@ -73,6 +73,9 @@
 //       "",
 //       "typedef vector<ll int> vi;",
 //       "typedef vector<string> vs;",
+//       "typedef vector<vector<ll int>> vvi;",
+//       "typedef vector<pair<ll int, ll int>> vpii;",
+//       "typedef vector<pair<string, ll int>> vpsi;",
 //       "typedef pair<ll int, ll int> pii;",
 //       "typedef pair<string, ll int> psi;",
 //       "typedef pair<ll int, string> pis;",
