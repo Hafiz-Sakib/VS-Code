@@ -1,7 +1,28 @@
 {
-  "boilerplate": {
+  "sakib": {
     "prefix": "Sakib",
-    "body": ["#include <stdio.h>", "int main() {", "$1", "return 0;", "}"],
+    "body": [
+      "#include <stdio.h>",
+      "#include <math.h>",
+      "#include <conio.h>",
+      "#include <string.h>",
+      "#include <stdlib.h>",
+      "#include <ctype.h>",
+      "#include <float.h>",
+      "#include <limits.h>",
+      "#include <time.h>",
+      "#define ll long long int",
+      "#define scan(data) scanf(\"%d\", &data)",
+      "#define print(data) printf(\"%d\", data)",
+      "#define fscan(data) scanf(\"%f\", &data)",
+      "#define fprint(data) printf(\"%.2f\", data)",
+      "",
+      "int main()",
+      "{",
+      "$1",
+      "return 0;",
+      "}"
+    ],
     "description": "Log output to console"
   }
 }
