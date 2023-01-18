@@ -4,6 +4,10 @@
     <img src="https://raw.githubusercontent.com/hafiz-sakib/cf-stats/main/output/max_rating.svg" alt="CodeForces rating" />
  </a>
 
+  <a href="https://leetcode.com/hafiz_sakib/">
+    <img src="https://cp-logo.vercel.app/leetcode/hafiz_sakib" alt="Leet code rating" />
+  </a>
+
 <a href="https://github.com/Hafiz-Sakib">
     <img src="https://komarev.com/ghpvc/?username=Hafiz-Sakib" alt = "profile views count" />
 </a>
@@ -45,7 +49,7 @@
 
 - <img src="https://i.postimg.cc/CxwVKhdy/airplane.gif" width="30" align="center"> How to reach me **hafizsakib5@gmail.com**
 
-- <img src="https://i.postimg.cc/PrkMZBdQ/man-running.gif" width="30" align="center"> **I love to play Games and go to the GYM very often.**
+- <img src="https://i.postimg.cc/RFF5t5pv/man-running.gif" width="30" align="center"> **I love to play Games and go to the GYM very often.**
 
 <!-- About Me Section Ended-->
 
@@ -101,7 +105,7 @@
 
 <!-- Github All Stats Start -->
 
-# <img src="https://i.postimg.cc/JhKs478t/trophy.gif" width="40px" align="center"> My Github Stats <img src="https://i.postimg.cc/ZYX2DrNK/smiling-face-with-sunglasses.gif" width="40px" align="center">
+# <img src="https://i.postimg.cc/HW3kPW9p/direct-hit.gif" width="40px" align="center"> My Github Stats
 
   <br/>
   <div align="center">
@@ -116,7 +120,7 @@
 
 <!-- Github Stats Start -->
 
-<a href="https://github.com/hafiz-sakib/github-readme-stats"><img alt="hafiz-sakib's Github Stats" src="https://github-readme-stats.vercel.app/api?username=hafiz-sakib&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" /></a>
+<a href="https://github.com/hafiz-sakib/github-readme-stats"><img alt="hafiz-sakib's Github Stats" src="https://readme-stats.clckblog.space/api?username=hafiz-sakib&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" /></a>
 
 <!-- Github Stats End -->
 
@@ -130,7 +134,7 @@
 
 <!--Top Language Graph Start -->
 
-<a href="https://github.com/hafiz-sakib/github-readme-stats"><img alt="hafiz-sakib's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hafiz-sakib&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" /></a>
+<a href="https://github.com/hafiz-sakib/github-readme-stats"><img alt="hafiz-sakib's Top Languages" src="https://readme-stats.clckblog.space/api/top-langs/?username=hafiz-sakib&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" /></a>
 
 <!--Top Language Graph End -->
 
@@ -164,21 +168,25 @@
 <br/>
 <br/>
 
-<!-- Codeforces Ratings Max && Currents Started  -->
+<!-- Codeforces && Leetcode Ratings Card Started  -->
 
 <div>
 
-<a href="https://codeforces.com/profile/hafiz_sakib">
-    <img src="https://raw.githubusercontent.com/hafiz-sakib/cf-stats/main/output/rating.svg" alt="Leet code rating" />
-  </a>
-  
   <a href="https://codeforces.com/profile/hafiz_sakib">
-    <img src="https://raw.githubusercontent.com/hafiz-sakib/cf-stats/main/output/max_rating.svg" alt="Leet code rating" />
+    <img src="https://raw.githubusercontent.com/hafiz-sakib/cf-stats/main/output/max_rating.svg" alt="Codeforces Max rating" />
+  </a>
+
+  <a href="https://leetcode.com/hafiz_sakib/">
+    <img src="https://cp-logo.vercel.app/leetcode/hafiz_sakib" alt="Leet code rating" />
+  </a>
+
+  <a href="https://codeforces.com/profile/hafiz_sakib">
+    <img src="https://raw.githubusercontent.com/hafiz-sakib/cf-stats/main/output/rating.svg" alt="Codeforces Current Rating" />
   </a>
 
 </div>
 
-  <!-- Codeforces Ratings Max && Currents Ended  -->
+  <!-- Codeforces && Leetcode Ratings Card Ended  -->
 
   </div>
 
@@ -189,7 +197,16 @@
 
 <!-- Activity & Contribution Graph Section Started -->
 
-<a href="https://github.com/SubhamRaoniar28/github-readme-activity-graph"><img alt="Subham Raoniar's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=Hafiz-Sakib&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
+# 📊 Contribution Graph
+
+<p align="center">
+<a href="https://github.com/Ashutosh00710/github-readme-activity-graph#gh-light-mode-only">
+ <img src="https://github-readme-activity-graph.cyclic.app/graph?username=Hafiz-Sakib&theme=react-dark&area=true&hide_border=true#gh-light-mode-only" width="100%">
+</a>
+<a href="https://github.com/Ashutosh00710/github-readme-activity-graph#gh-dark-mode-only">
+ <img src="https://github-readme-activity-graph.cyclic.app/graph?username=Hafiz-Sakib&theme=react-dark&area=true&hide_border=true#gh-dark-mode-only" width="100%">
+</a>
+</p>
 
 <!-- Activity & Contribution Graph Section Ended -->
 
@@ -198,16 +215,19 @@
 
 <!-- Social Media Connection Section Started -->
 
-# <img src="https://i.postimg.cc/x8g3y3G3/man-zombie.gif" width="40px" align="center"> Connect with me :
+# <img src="https://i.postimg.cc/qvK00py6/handshake.gif" width="40px" align="center"> Connect with me :
 
 </br>
 
-<p align="left">
-<a href = "https://codeforces.com/profile/hafiz_sakib"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48.5/000000/external-codeforces-programming-competitions-and-contests-programming-community-logo-shadow-tal-revivo.png" style="margin-right: 3px"/></a>
+<p align="center">
+<a href = "https://codeforces.com/profile/hafiz_sakib"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/null/external-codeforces-programming-competitions-and-contests-programming-community-logo-shadow-tal-revivo.png"/></a>
+<a href = "https://www.hackerrank.com/Hafiz_Sakib?hr_r=1"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/null/external-hackerrank-is-a-technology-company-that-focuses-on-competitive-programming-logo-shadow-tal-revivo.png"/></a>
+<a href = "https://www.codechef.com/users/hafizsakib5"><img src="https://img.icons8.com/color/48/null/codechef.png"/></a>
+<a href = "https://leetcode.com/hafiz_Sakib/"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/null/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-shadow-tal-revivo.png"/></a>
 <a href = "https://www.linkedin.com/in/hafiz-sakib-96b8b3229/"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
 <a href = "https://www.facebook.com/Sakib1056"><img src="https://img.icons8.com/fluency/48/undefined/facebook-new.png"/></a>
 <a href = "https://m.me/Sakib1056"><img src="https://img.icons8.com/fluency/48/undefined/facebook-messenger--v2.png"/></a>
-<a href = "https://twitter.com/Hafizsakib1"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+<a href = "https://twitter.com/Hafizsakib1"><img src="https://img.icons8.com/color/48/null/twitter--v1.png"/></a>
 <a href = "https://www.instagram.com/s_a_k_i_b_1056/"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
 
 </p>
