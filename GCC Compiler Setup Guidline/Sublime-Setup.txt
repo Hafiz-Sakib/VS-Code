@@ -1,0 +1,36 @@
+# C & C++.sublime-build
+
+{
+    "cmd": ["g++.exe", "-std=c++17", "${file}",
+            "-o", "${file_base_name}.exe",
+            "&&", "${file_base_name}.exe<inputf.in>outputf.out"],
+    "shell":true,
+    "working_dir":"$file_path",
+    "selector":"source.cpp"
+}
+
+
+# 
+
+
+# newPython3.sublime-build
+
+{
+ "cmd":["C:/Users/<user>/AppData/Local/Programs/Python/Python37-32/python.exe", "-u", "$file"],
+ "file_regex": "^[ ]File \"(...?)\", line ([0-9]*)",
+ "selector": "source.python"
+}
+
+package control
+sublimeREPL
+
+keybindings
+
+	[
+		{ "keys": ["ctrl+alt+b"], "command": "run_existing_window_command", "args":
+		{
+			"id": "repl_python_run",
+			"file": "config/Python/Main.sublime-menu"
+		}}
+	]
+

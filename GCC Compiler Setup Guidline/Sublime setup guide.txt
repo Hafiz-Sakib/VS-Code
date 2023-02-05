@@ -1,0 +1,9 @@
+# First of all create a folder name it as "contest" in the desktop
+# save all the sublime files in that contest folder
+# Search "environment"  in search box. Click on the "edit the system environment variables".
+# Click "environment variables" . From System variables click on "Path" then click "edit"
+# Then click "new" & paste the following line: "C:\Program Files\CodeBlocks\MinGW\bin" then click ok in the rest box.
+From this link: https://www.geeksforgeeks.org/setting-up-sublime-text-for-cpp-competitive-programming-environment/
+follow from "Creating a Build System"
+# close the sublime & open again
+#then copy file stdc++.h in directory : C:\Program Files\CodeBlocks\MinGW\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++\bits
