@@ -24,6 +24,7 @@ using namespace std;
 
 void Boom()
 {
+    yes;
 }
 
 int main()
