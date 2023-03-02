@@ -1,9 +1,3 @@
-/*
-
-string author;
-author = Hafiz_Sakib;
-
-*/
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
@@ -63,6 +57,20 @@ typedef set<double> sd;
 
 void Boom()
 {
+    int n;
+    cin >> n;
+    string s;
+    cin >> s;
+    ll ok = n - 1;
+    for (int i = 1; i < n - 1; i++)
+    {
+        char c = s[i];
+        if (s[i - 1] == s[i + 1])
+        {
+            ok--;
+        }
+    }
+    cout << ok << endl;
 }
 
 int main()
