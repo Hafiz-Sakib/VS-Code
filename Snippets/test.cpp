@@ -8,27 +8,28 @@ author = Hafiz_Sakib;
 #include <bits/stdc++.h>
 using namespace std;
 
-typedef long long int ll;
-typedef unsigned long long ull;
-typedef vector<ll> vi;
-typedef vector<string> vs;
-typedef vector<vector<ll>> vvi;
-typedef vector<pair<ll, ll>> vpii;
-typedef vector<pair<string, ll>> vpsi;
-typedef pair<ll, ll> pii;
-typedef pair<string, ll> psi;
-typedef pair<ll, string> pis;
-typedef pair<double, double> pdd;
-typedef map<ll, ll> mii;
-typedef map<ll, bool> mib;
-typedef map<string, ll> msi;
-typedef map<ll, string> mis;
-typedef set<ll> si;
-typedef set<string> ss;
-typedef set<double> sd;
+#define ll long long int
+#define ull unsigned long long int
 
-typedef vector<int>::iterator vit;
-typedef set<int>::iterator sit;
+#define vi vector<ll>
+#define vs vector<string>
+#define vvi vector<vector<ll>>
+#define vpii vector<pair<ll, ll>>
+#define vpsi vector<pair<string, ll>>
+#define pii pair<ll, ll>
+#define psi pair<string, ll>
+#define pis pair<ll, string>
+#define mii map<ll, ll>
+#define mib map<ll, bool>
+#define msi map<string, ll>
+#define mis map<ll, string>
+#define pdd pair<double, double>
+#define si set<ll>
+#define ss set<string>
+#define sd set<double>
+
+#define vit vector<int>::iterator
+#define sit set<int>::iterator
 
 #define pb push_back
 #define mp make_pair

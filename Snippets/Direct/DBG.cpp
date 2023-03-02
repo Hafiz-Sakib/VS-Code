@@ -10,6 +10,7 @@ using namespace std;
 
 typedef long long int ll;
 typedef unsigned long long ull;
+
 typedef vector<ll> vi;
 typedef vector<string> vs;
 typedef vector<vector<ll>> vvi;
