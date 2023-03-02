@@ -8,22 +8,23 @@ author = Hafiz_Sakib;
 #include <bits/stdc++.h>
 using namespace std;
 
-typedef long long int ll;
-typedef unsigned long long ull;
-typedef vector<ll> vi;
+#define ll long long
+#define ull unsigned long long
+
+typedef vector<ll int> vi;
 typedef vector<string> vs;
-typedef vector<vector<ll>> vvi;
-typedef vector<pair<ll, ll>> vpii;
-typedef vector<pair<string, ll>> vpsi;
-typedef pair<ll, ll> pii;
-typedef pair<string, ll> psi;
-typedef pair<ll, string> pis;
+typedef vector<vector<ll int>> vvi;
+typedef vector<pair<ll int, ll int>> vpii;
+typedef vector<pair<string, ll int>> vpsi;
+typedef pair<ll int, ll int> pii;
+typedef pair<string, ll int> psi;
+typedef pair<ll int, string> pis;
 typedef pair<double, double> pdd;
-typedef map<ll, ll> mii;
-typedef map<ll, bool> mib;
-typedef map<string, ll> msi;
-typedef map<ll, string> mis;
-typedef set<ll> si;
+typedef map<ll int, ll int> mii;
+typedef map<ll int, bool> mib;
+typedef map<string, ll int> msi;
+typedef map<ll int, string> mis;
+typedef set<ll int> si;
 typedef set<string> ss;
 typedef set<double> sd;
 
@@ -55,10 +56,10 @@ typedef set<int>::iterator sit;
 #define vecCount(data, key) count(data.begin(), data.end(), key)
 #define Reverse(data) reverse(data.begin(), data.end())
 
-#define yes cout << "YES\n"
-#define no cout << "NO\n"
-#define YES cout << "Yes\n"
-#define NO cout << "No\n"
+#define YES cout << "YES\n"
+#define NO cout << "NO\n"
+#define yes cout << "Yes\n"
+#define no cout << "No\n"
 
 #define stringLower(data) transform(data.begin(), data.end(), data.begin(), ::tolower)
 #define stringUpper(data) transform(data.begin(), data.end(), data.begin(), ::toupper)
