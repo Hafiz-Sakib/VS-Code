@@ -1,10 +1,20 @@
+/*
+
+string author;
+author = Hafiz_Sakib;
+
+*/
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
 #define endl "\n"
 #define ll long long int
-typedef pair<ll, ll> pii;
 typedef vector<ll> vi;
+typedef vector<string> vs;
+typedef vector<vector<ll>> vvi;
+typedef vector<pair<ll, ll>> vpii;
+typedef vector<pair<string, ll>> vpsi;
+typedef pair<ll, ll> pii;
 typedef pair<string, ll> psi;
 typedef pair<ll, string> pis;
 typedef pair<double, double> pdd;
@@ -39,7 +49,7 @@ typedef set<double> sd;
 #define no cout << "NO\n"
 #define YES cout << "Yes\n"
 #define NO cout << "No\n"
-#define ign || e cin.ign || e(numeric_limits<streamsize>::max(), '\n')
+#define ignore cin.ignore(numeric_limits<streamsize>::max(), '\n')
 #define Boost                         \
     ios_base::sync_with_stdio(false); \
     cin.tie(NULL);                    \
@@ -53,42 +63,6 @@ typedef set<double> sd;
 
 void Boom()
 {
-
-    int n;
-    cin >> n;
-    vi vec;
-    for (ll i = 0; i < n; i++)
-    {
-        ll a;
-        cin >> a;
-        vec.pb(a);
-    }
-    multiset<ll> s;
-    ll ranges = 0;
-    for (ll i = 0; i < n; i++)
-
-    {
-        if (vec[i])
-
-        {
-            s.insert(vec[i]);
-        }
-        else
-        {
-            if (s.size() == 0)
-
-            {
-                continue;
-            }
-
-            int val = *s.rbegin();
-            auto it = s.find(val);
-            s.erase(it);
-
-            ranges += val;
-        }
-    }
-    cout << ranges << endl;
 }
 
 int main()
