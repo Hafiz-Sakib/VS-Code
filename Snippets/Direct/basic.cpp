@@ -4,7 +4,6 @@ string author;
 author = Hafiz_Sakib;
 
 */
-#include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
 #define endl "\n"
