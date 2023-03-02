@@ -1,7 +1,7 @@
 /*
 
-string author;
-author = Hafiz_Sakib;
+string auth||;
+auth|| = L||d__Voldem||t;
 
 */
 #include <iostream>
@@ -9,11 +9,6 @@ author = Hafiz_Sakib;
 using namespace std;
 #define endl "\n"
 #define ll long long int
-typedef vector<ll> vi;
-typedef vector<string> vs;
-typedef vector<vector<ll>> vvi;
-typedef vector<pair<ll, ll>> vpii;
-typedef vector<pair<string, ll>> vpsi;
 typedef pair<ll, ll> pii;
 typedef pair<string, ll> psi;
 typedef pair<ll, string> pis;
@@ -49,7 +44,7 @@ typedef set<double> sd;
 #define no cout << "NO\n"
 #define YES cout << "Yes\n"
 #define NO cout << "No\n"
-#define ignore cin.ignore(numeric_limits<streamsize>::max(), '\n')
+#define ign || e cin.ign || e(numeric_limits<streamsize>::max(), '\n')
 #define Boost                         \
     ios_base::sync_with_stdio(false); \
     cin.tie(NULL);                    \
@@ -64,55 +59,60 @@ typedef set<double> sd;
 void Boom()
 {
     ll n;
+    cin >> n;
     string s;
-    cin >> n >> s;
-
-    if ((s[0] != 'm' and s[0] != 'M') || (s[s.size() - 1] != 'w' and s[s.size() - 1 != 'W']))
+    cin >> s;
+    ll m = 0, e = 0, o = 0, w = 0;
+    ll idx = 0;
+    if (s[idx] == 'm' || s[idx] == 'M')
+        while ((s[idx] == 'm' || s[idx] == 'M') && idx < n)
+        {
+            m = 1;
+            idx++;
+        }
+    else
+    {
+        no;
+        return;
+    }
+    if (s[idx] == 'e' || s[idx] == 'E')
+        while ((s[idx] == 'e' || s[idx] == 'E') && idx < n)
+        {
+            e = 1;
+            idx++;
+        }
+    else
+    {
+        no;
+        return;
+    }
+    if (s[idx] == 'o' || s[idx] == 'O')
+        while ((s[idx] == 'o' || s[idx] == 'O') && idx < n)
+        {
+            o = 1;
+            idx++;
+        }
+    else
+    {
+        no;
+        return;
+    }
+    if (s[idx] == 'w' || s[idx] == 'W')
+        while ((s[idx] == 'w' || s[idx] == 'W') && idx < n)
+        {
+            w = 1;
+            idx++;
+        }
+    else
     {
         no;
         return;
     }
 
-    for (int i = 0; i < n - 1; i++)
-    {
-        if (s[i] != s[i + 1])
-        {
-            if ((s[i] == 'm' || s[i] == 'M') && (s[i + 1] == 'e' || s[i + 1] == 'E'))
-            {
-                continue;
-            }
-            else if ((s[i] == 'e' || s[i] == 'E') && (s[i + 1] == 'o' || s[i + 1] == 'O'))
-            {
-                continue;
-            }
-            else if ((s[i] == 'm' || s[i] == 'M') && (s[i + 1] == 'm' || s[i + 1] == 'M'))
-            {
-                continue;
-            }
-            else if ((s[i] == 'o' || s[i] == 'O') && (s[i + 1] == 'w' || s[i + 1] == 'W'))
-            {
-                continue;
-            }
-            else if ((s[i] == 'e' || s[i] == 'E') && (s[i + 1] == 'e' || s[i + 1] == 'E'))
-            {
-                continue;
-            }
-            else if ((s[i] == 'o' || s[i] == 'O') && (s[i + 1] == 'o' || s[i + 1] == 'O'))
-            {
-                continue;
-            }
-            else if ((s[i] == 'w' || s[i] == 'W') && (s[i + 1] == 'w' || s[i + 1] == 'W'))
-            {
-                continue;
-            }
-            else
-            {
-                no;
-                return;
-            }
-        }
-    }
-    yes;
+    if (m == 1 && e == 1 && o == 1 && e == 1 && idx == n)
+        yes;
+    else
+        no;
 }
 
 int main()
