@@ -1,1 +1,0 @@
-{"name":"Local: lol","url":"c:\\Projects\\VS-Code\\Snippets\\lol.cpp","tests":[{"id":1677774090529,"input":"7\n6\naaabcc\n10\naaaaaaaaaa\n6\nabcdef\n7\nabacaba\n6\ncccfff\n4\nabba\n5\nababa","output":"4\n1\n5\n3\n3\n3\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Projects\\VS-Code\\Snippets\\lol.cpp","group":"local","local":true}
