@@ -6,7 +6,7 @@ author = Hafiz_Sakib;
 */
 #include <bits/stdc++.h>
 using namespace std;
-#define endl "\n"
+
 #define ll long long int
 typedef vector<ll> vi;
 typedef vector<string> vs;
@@ -32,6 +32,7 @@ typedef set<double> sd;
 #define F first
 #define S second
 #define space ' '
+#define endl "\n"
 
 #define b() begin()
 #define e() end()
