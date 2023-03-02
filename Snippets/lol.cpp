@@ -1,15 +1,10 @@
-/*
-
-string auth||;
-auth|| = L||d__Voldem||t;
-
-*/
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
 #define endl "\n"
 #define ll long long int
 typedef pair<ll, ll> pii;
+typedef vector<ll> vi;
 typedef pair<string, ll> psi;
 typedef pair<ll, string> pis;
 typedef pair<double, double> pdd;
@@ -58,61 +53,42 @@ typedef set<double> sd;
 
 void Boom()
 {
-    ll n;
-    cin >> n;
-    string s;
-    cin >> s;
-    ll m = 0, e = 0, o = 0, w = 0;
-    ll idx = 0;
-    if (s[idx] == 'm' || s[idx] == 'M')
-        while ((s[idx] == 'm' || s[idx] == 'M') && idx < n)
-        {
-            m = 1;
-            idx++;
-        }
-    else
-    {
-        no;
-        return;
-    }
-    if (s[idx] == 'e' || s[idx] == 'E')
-        while ((s[idx] == 'e' || s[idx] == 'E') && idx < n)
-        {
-            e = 1;
-            idx++;
-        }
-    else
-    {
-        no;
-        return;
-    }
-    if (s[idx] == 'o' || s[idx] == 'O')
-        while ((s[idx] == 'o' || s[idx] == 'O') && idx < n)
-        {
-            o = 1;
-            idx++;
-        }
-    else
-    {
-        no;
-        return;
-    }
-    if (s[idx] == 'w' || s[idx] == 'W')
-        while ((s[idx] == 'w' || s[idx] == 'W') && idx < n)
-        {
-            w = 1;
-            idx++;
-        }
-    else
-    {
-        no;
-        return;
-    }
 
-    if (m == 1 && e == 1 && o == 1 && e == 1 && idx == n)
-        yes;
-    else
-        no;
+    int n;
+    cin >> n;
+    vi vec;
+    for (ll i = 0; i < n; i++)
+    {
+        ll a;
+        cin >> a;
+        vec.pb(a);
+    }
+    multiset<ll> s;
+    ll ranges = 0;
+    for (ll i = 0; i < n; i++)
+
+    {
+        if (vec[i])
+
+        {
+            s.insert(vec[i]);
+        }
+        else
+        {
+            if (s.size() == 0)
+
+            {
+                continue;
+            }
+
+            int val = *s.rbegin();
+            auto it = s.find(val);
+            s.erase(it);
+
+            ranges += val;
+        }
+    }
+    cout << ranges << endl;
 }
 
 int main()
