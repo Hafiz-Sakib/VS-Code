@@ -12,7 +12,9 @@ typedef long long int ll;
 typedef unsigned long long ull;
 
 typedef vector<ll> vi;
+typedef vector<double> vd;
 typedef vector<string> vs;
+typedef vector<char> vc;
 typedef vector<vector<ll>> vvi;
 typedef vector<pair<ll, ll>> vpii;
 typedef vector<pair<string, ll>> vpsi;
@@ -27,6 +29,9 @@ typedef map<ll, string> mis;
 typedef set<ll> si;
 typedef set<string> ss;
 typedef set<double> sd;
+typedef priority_queue<ll> pq;
+typedef priority_queue<string> pqs;
+typedef priority_queue<ll, vi, greater<ll>> pqg;
 
 typedef vector<int>::iterator vit;
 typedef set<int>::iterator sit;
@@ -35,10 +40,12 @@ typedef set<int>::iterator sit;
 #define mp make_pair
 #define pob pop_back
 #define in insert
-#define F first
-#define S second
+#define fi first
+#define se second
 #define space ' '
 #define endl "\n"
+#define lb lower_bound
+#define ub upper_bound
 
 #define mid(l, r) ((r + l) / 2)
 #define left(node) (node * 2)
@@ -74,6 +81,7 @@ typedef set<int>::iterator sit;
 #define here fprintf(stderr, "====I am Here====\n");
 
 #define gcd(a, b) __gcd(a, b)
+#define lcm(a, b) ((a) / gcd(a, b) * (b))
 #define sqr(a) ((a) * (a))
 #define MOD 1000000007
 
