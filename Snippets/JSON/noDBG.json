@@ -79,6 +79,7 @@
       "#define here fprintf(stderr, \"====I am Here====\\n\");",
       "",
       "#define gcd(a,b) __gcd(a,b)",
+      "#define lcm(a, b) ((a)/gcd(a, b)*(b))",
       "#define sqr(a) ((a) * (a))",
       "#define MOD 1000000007",
       "",
