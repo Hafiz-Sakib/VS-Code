@@ -12,7 +12,9 @@ using namespace std;
 #define ull unsigned long long int
 
 #define vi vector<ll>
+#define vd vector<double>
 #define vs vector<string>
+#define vc vector<char>
 #define vvi vector<vector<ll>>
 #define vpii vector<pair<ll, ll>>
 #define vpsi vector<pair<string, ll>>
@@ -27,6 +29,9 @@ using namespace std;
 #define si set<ll>
 #define ss set<string>
 #define sd set<double>
+#define pq priority_queue<ll>
+#define pqs priority_queue<string>
+#define pqg priority_queue<ll, vi, greater<ll>>
 
 #define vit vector<int>::iterator
 #define sit set<int>::iterator
@@ -35,10 +40,12 @@ using namespace std;
 #define mp make_pair
 #define pob pop_back
 #define in insert
-#define F first
-#define S second
+#define fi first
+#define se second
 #define space ' '
 #define endl "\n"
+#define lb lower_bound
+#define ub upper_bound
 
 #define mid(l, r) ((r + l) / 2)
 #define left(node) (node * 2)
@@ -74,6 +81,7 @@ using namespace std;
 #define here fprintf(stderr, "====I am Here====\n");
 
 #define gcd(a, b) __gcd(a, b)
+#define lcm(a, b) ((a) / gcd(a, b) * (b))
 #define sqr(a) ((a) * (a))
 #define MOD 1000000007
 
