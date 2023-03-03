@@ -46,6 +46,9 @@ typedef set<string> ss;
 #define stringUpper(data) transform(data.begin(), data.end(), data.begin(), ::toupper)
 #define ignore cin.ignore(numeric_limits<streamsize>::max(), '\n')
 
+#define debug(x) cerr << x << endl;
+#define here fprintf(stderr, "====I am Here====\n");
+
 #define Boost                         \
     ios_base::sync_with_stdio(false); \
     cin.tie(NULL);                    \
