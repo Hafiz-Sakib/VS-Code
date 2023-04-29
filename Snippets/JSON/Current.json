@@ -729,7 +729,7 @@
     "body": [
       "int upperbound(vector<int> v, int q)",
       "{",
-      "    int l = 0, r = v.size() - 1, ans = v.size() + 10;",
+      "    int l = 0, r = v.size() - 1, ans = v.size();",
       "    while (l <= r)",
       "    {",
       "        int mid = (l + r) >> 1;",
@@ -754,7 +754,7 @@
     "body": [
       "int lowerbound(vector<int> v, int q)",
       "{",
-      "    int l = 0, r = v.size() - 1, ans = 1e5;",
+      "    int l = 0, r = v.size() - 1, ans = v.size()",
       "    while (l <= r)",
       "    {",
       "        int mid = (l + r) >> 1;",
