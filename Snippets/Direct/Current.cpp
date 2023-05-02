@@ -45,6 +45,8 @@ typedef set<string> ss;
 #define stringLower(data) transform(data.begin(), data.end(), data.begin(), ::tolower)
 #define stringUpper(data) transform(data.begin(), data.end(), data.begin(), ::toupper)
 #define ignore cin.ignore(numeric_limits<streamsize>::max(), '\n')
+const double eps = 1e-12;
+const int mx = 1e8 + 123;
 
 #define debug(x) cerr << x << endl;
 #define here fprintf(stderr, "====I am Here====\n");
