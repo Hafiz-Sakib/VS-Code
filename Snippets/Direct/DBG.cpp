@@ -83,8 +83,8 @@ typedef set<int>::iterator sit;
 #define MOD 1000000007
 
 const double PI = acos(-1);
-const int mx = 1e9 + 7;
-const double eps = 1e-9;
+const int mx = 1e8 + 123;
+const double eps = 1e-12;
 const int inf = 2000000000;
 const ll infLL = 9000000000000000000;
 
