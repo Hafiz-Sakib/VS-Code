@@ -86,7 +86,7 @@ typedef set<int>::iterator sit;
 #define MOD 1000000007
 
 const double PI = acos(-1);
-const int mx = 1e9 + 7;
+const int mx = 1e8 + 123;
 const double eps = 1e-9;
 const int inf = 2000000000;
 const ll infLL = 9000000000000000000;
@@ -95,18 +95,18 @@ const ll infLL = 9000000000000000000;
     ios_base::sync_with_stdio(false); \
     cin.tie(NULL);                    \
     cout.tie(NULL)
-
+int a[mx];
 void Boom()
 {
-    // Let's Move
+    cout << a[mx - 1];
 }
 
 int main()
 {
     Boost;
 
-    int t = 1;
-    cin >> t;
+    int t = 10;
+
     while (t--)
     {
         // cout<<"Case "<<t<<" : ";
