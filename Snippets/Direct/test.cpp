@@ -49,6 +49,7 @@ typedef set<string> ss;
 #define debug(x) cerr << x << endl;
 #define here fprintf(stderr, "====I am Here====\n");
 const double eps = 1e-12;
+const int mx = 1e8 + 123;
 
 #define Boost                         \
     ios_base::sync_with_stdio(false); \
