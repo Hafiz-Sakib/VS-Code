@@ -36,6 +36,19 @@ using namespace std;
 #define vit vector<int>::iterator
 #define sit set<int>::iterator
 
+typedef tree<ll, null_type, less<ll>, rb_tree_tag,
+             tree_order_statistics_node_update>
+    ordered_set;
+typedef tree<ll, null_type, greater<ll>, rb_tree_tag,
+             tree_order_statistics_node_update>
+    greater_set;
+typedef tree<ll, null_type, less_equal<ll>, rb_tree_tag,
+             tree_order_statistics_node_update>
+    multi_set;
+typedef tree<ll, null_type, greater_equal<ll>, rb_tree_tag,
+             tree_order_statistics_node_update>
+    greater_multi_set;
+
 #define pb push_back
 #define mp make_pair
 #define pob pop_back
