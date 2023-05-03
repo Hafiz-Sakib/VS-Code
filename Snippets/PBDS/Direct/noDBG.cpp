@@ -6,6 +6,9 @@ author = Hafiz_Sakib;
 
 */
 #include <bits/stdc++.h>
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
+using namespace __gnu_pbds;
 using namespace std;
 
 typedef long long int ll;
@@ -19,22 +22,26 @@ typedef vector<vector<ll>> vvi;
 typedef vector<pair<ll, ll>> vpii;
 typedef vector<pair<string, ll>> vpsi;
 typedef pair<ll, ll> pii;
-typedef pair<string, ll> psi;
-typedef pair<ll, string> pis;
-typedef pair<double, double> pdd;
 typedef map<ll, ll> mii;
-typedef map<ll, bool> mib;
 typedef map<string, ll> msi;
-typedef map<ll, string> mis;
 typedef set<ll> si;
 typedef set<string> ss;
-typedef set<double> sd;
-typedef priority_queue<ll> pq;
-typedef priority_queue<string> pqs;
-typedef priority_queue<ll, vi, greater<ll>> pqg;
 
 typedef vector<int>::iterator vit;
 typedef set<int>::iterator sit;
+
+typedef tree<ll, null_type, less<ll>, rb_tree_tag,
+             tree_order_statistics_node_update>
+    ordered_set;
+typedef tree<ll, null_type, greater<ll>, rb_tree_tag,
+             tree_order_statistics_node_update>
+    greater_set;
+typedef tree<ll, null_type, less_equal<ll>, rb_tree_tag,
+             tree_order_statistics_node_update>
+    multi_set;
+typedef tree<ll, null_type, greater_equal<ll>, rb_tree_tag,
+             tree_order_statistics_node_update>
+    greater_multi_set;
 
 #define pb push_back
 #define mp make_pair
