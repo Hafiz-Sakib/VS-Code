@@ -27,6 +27,9 @@ typedef map<string, ll> msi;
 typedef set<ll> si;
 typedef set<string> ss;
 
+typedef vector<int>::iterator vit;
+typedef set<int>::iterator sit;
+
 typedef tree<ll, null_type, less<ll>, rb_tree_tag,
              tree_order_statistics_node_update>
     ordered_set;
