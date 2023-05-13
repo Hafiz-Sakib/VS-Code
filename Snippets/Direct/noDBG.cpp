@@ -27,6 +27,7 @@ typedef map<ll, bool> mib;
 typedef map<string, ll> msi;
 typedef map<ll, string> mis;
 typedef set<ll> si;
+typedef set<char> sc;
 typedef set<string> ss;
 typedef set<double> sd;
 typedef priority_queue<ll> pq;

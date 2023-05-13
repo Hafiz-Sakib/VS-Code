@@ -31,6 +31,7 @@
       "#define mis map<ll,string>",
       "#define pdd pair<double, double>",
       "#define si set<ll>",
+      "#define sc set<char>",
       "#define ss set<string>",
       "#define sd set<double>",
       "#define pq priority_queue<ll>",
