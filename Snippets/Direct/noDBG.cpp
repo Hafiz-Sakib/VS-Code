@@ -47,35 +47,34 @@ typedef set<int>::iterator sit;
 #define lb lower_bound
 #define ub upper_bound
 
-#define mid(l, r) ((r + l) / 2)
 #define left(node) (node * 2)
+#define mid(l, r) ((r + l) >> 1)
 #define right(node) (node * 2 + 1)
-#define mx_int_prime 999999937
 
 #define b() begin()
 #define e() end()
+#define sz(x) (int)x.size()
 #define all(data) data.begin(), data.end()
 #define rall(data) data.rbegin(), data.rend()
-#define sz(x) (int)x.size()
+#define Reverse(data) reverse(data.begin(), data.end())
 #define vecMax(data) *max_element(data.begin(), data.end())
 #define vecMin(data) *min_element(data.begin(), data.end())
 #define vecSum(data) accumulate(data.begin(), data.end(), 0)
 #define vecCount(data, key) count(data.begin(), data.end(), key)
-#define Reverse(data) reverse(data.begin(), data.end())
 
 #define yes cout << "YES\n"
 #define no cout << "NO\n"
 #define YES cout << "Yes\n"
 #define NO cout << "No\n"
 
-#define stringLower(data) transform(data.begin(), data.end(), data.begin(), ::tolower)
-#define stringUpper(data) transform(data.begin(), data.end(), data.begin(), ::toupper)
+#define setp(n) fixed << setprecision(n)
+#define mem(arr, val) memset(arr, val, sizeof(arr));
 #define fr(a, b) for (int i = a; i < b; i++)
 #define rep(i, a, b) for (int i = a; i < b; i++)
 #define FOR(data) for (auto it = data.begin(); it != data.end(); it++)
-#define setp(n) fixed << setprecision(n)
-#define mem(arr, val) memset(arr, val, sizeof(arr));
 #define ignore cin.ignore(numeric_limits<streamsize>::max(), '\n')
+#define stringLower(data) transform(data.begin(), data.end(), data.begin(), ::tolower)
+#define stringUpper(data) transform(data.begin(), data.end(), data.begin(), ::toupper)
 
 #define debug(x) cerr << x << endl;
 #define here fprintf(stderr, "====I am Here====\n");
@@ -89,6 +88,7 @@ const double PI = acos(-1);
 const int mx = 1e8 + 123;
 const double eps = 1e-12;
 const int inf = 2000000000;
+#define mx_int_prime 999999937
 const ll infLL = 9000000000000000000;
 
 #define Boost                         \
