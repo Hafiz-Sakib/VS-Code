@@ -47,10 +47,9 @@ typedef set<int>::iterator sit;
 #define lb lower_bound
 #define ub upper_bound
 
-#define mid(l, r) ((r + l) >> 1)
 #define left(node) (node * 2)
+#define mid(l, r) ((r + l) >> 1)
 #define right(node) (node * 2 + 1)
-#define mx_int_prime 999999937
 
 #define b() begin()
 #define e() end()
@@ -81,6 +80,7 @@ typedef set<int>::iterator sit;
 #define lcm(a, b) ((a) / gcd(a, b) * (b))
 #define sqr(a) ((a) * (a))
 #define MOD 1000000007
+#define mx_int_prime 999999937
 
 const double PI = acos(-1);
 const int mx = 1e8 + 123;
