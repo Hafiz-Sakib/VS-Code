@@ -22,6 +22,7 @@ typedef pair<ll, ll> pii;
 typedef map<ll, ll> mii;
 typedef map<string, ll> msi;
 typedef set<ll> si;
+typedef set<char> sc;
 typedef set<string> ss;
 
 #define pb push_back
