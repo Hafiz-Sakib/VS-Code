@@ -47,8 +47,8 @@ typedef set<int>::iterator sit;
 #define lb lower_bound
 #define ub upper_bound
 
-#define left(node) (node * 2)
 #define mid(l, r) ((r + l) >> 1)
+#define left(node) (node * 2)
 #define right(node) (node * 2 + 1)
 
 #define b() begin()
