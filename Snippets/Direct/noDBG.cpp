@@ -47,8 +47,8 @@ typedef set<int>::iterator sit;
 #define lb lower_bound
 #define ub upper_bound
 
-#define mid(l, r) ((r + l) >> 1)
 #define left(node) (node * 2)
+#define mid(l, r) ((r + l) >> 1)
 #define right(node) (node * 2 + 1)
 
 #define b() begin()
@@ -68,11 +68,11 @@ typedef set<int>::iterator sit;
 #define NO cout << "No\n"
 
 #define setp(n) fixed << setprecision(n)
-#define mem(arr, val) memset(arr, val, sizeof(arr));
 #define fr(a, b) for (int i = a; i < b; i++)
 #define rep(i, a, b) for (int i = a; i < b; i++)
-#define FOR(data) for (auto it = data.begin(); it != data.end(); it++)
+#define mem(arr, val) memset(arr, val, sizeof(arr));
 #define ignore cin.ignore(numeric_limits<streamsize>::max(), '\n')
+#define FOR(data) for (auto it = data.begin(); it != data.end(); it++)
 #define stringLower(data) transform(data.begin(), data.end(), data.begin(), ::tolower)
 #define stringUpper(data) transform(data.begin(), data.end(), data.begin(), ::toupper)
 
