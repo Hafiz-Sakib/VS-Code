@@ -83,12 +83,12 @@ typedef set<int>::iterator sit;
 #define lcm(a, b) ((a) / gcd(a, b) * (b))
 #define sqr(a) ((a) * (a))
 #define MOD 1000000007
+#define mx_int_prime 999999937
 
 const double PI = acos(-1);
 const int mx = 1e8 + 123;
 const double eps = 1e-12;
 const int inf = 2000000000;
-#define mx_int_prime 999999937
 const ll infLL = 9000000000000000000;
 
 #define Boost                         \
