@@ -273,6 +273,7 @@
   "SieveOfEratosthenes": {
     "prefix": "sieve",
     "body": [
+      "",
       "bitset<mx> is_prime;",
       "vector<int> primes;",
       "",
