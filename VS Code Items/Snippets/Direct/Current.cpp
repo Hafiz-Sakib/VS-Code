@@ -22,6 +22,7 @@ typedef pair<ll, ll> pii;
 typedef map<ll, ll> mii;
 typedef map<string, ll> msi;
 typedef set<ll> si;
+typedef set<char> sc;
 typedef set<string> ss;
 
 #define pb push_back
@@ -42,9 +43,9 @@ typedef set<string> ss;
 #define vecMin(data) *min_element(data.begin(), data.end())
 #define vecSum(data) accumulate(data.begin(), data.end(), 0)
 
+#define ignore cin.ignore(numeric_limits<streamsize>::max(), '\n')
 #define stringLower(data) transform(data.begin(), data.end(), data.begin(), ::tolower)
 #define stringUpper(data) transform(data.begin(), data.end(), data.begin(), ::toupper)
-#define ignore cin.ignore(numeric_limits<streamsize>::max(), '\n')
 
 const double eps = 1e-12;
 const int mx = 1e8 + 123;
