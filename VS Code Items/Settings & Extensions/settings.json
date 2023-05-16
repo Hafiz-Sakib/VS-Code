@@ -1,5 +1,5 @@
 {
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "expand",
   "editor.fontSize": 30,
   "liveServer.settings.donotShowInfoMsg": true,
@@ -21,7 +21,6 @@
     "javascript": "javascriptreact"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "window.zoomLevel": -2,
   "code-runner.runInTerminal": true,
   "settingsSync.ignoredSettings": [],
   "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
@@ -35,5 +34,16 @@
   "http.proxyAuthorization": null,
   "security.workspace.trust.untrustedFiles": "newWindow",
   "git.confirmSync": false,
-  "git.enableSmartCommit": true
+  "git.enableSmartCommit": true,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "editor.accessibilitySupport": "off",
+  "git.openRepositoryInParentFolders": "always",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "cph.general.defaultLanguage": "cpp",
+  "window.zoomLevel": -2,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  }
 }
