@@ -14,6 +14,7 @@
   "vsicons.dontShowNewVersionMessage": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "'operator mono','Fira Code','cascadia code',Consolas, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'Fira Code', monospace",
   "editor.fontLigatures": true,
   "editor.inlineSuggest.enabled": true,
   "workbench.colorTheme": "Community Material Theme Ocean",
