@@ -205,26 +205,26 @@
     ],
     "description": "unique"
   },
-  "primefector": {
-    "prefix": "primefector",
+
+  "isprime": {
+    "prefix": "isprime",
     "body": [
-      "vector<int>primefactor;",
-      "while (n % 2 == 0)  ",
-      "{  ",
-      "    primefactor.pb(2);",
-      "    n = n/2;  ",
-      "}  ",
-      "for(int i = 3; i <= sqrt(n); i = i + 2)  ",
-      "{  ",
-      "    while (n % i == 0)  ",
-      "    {  ",
-      "        primefactor.pb(i);",
-      "        n = n/i;  ",
-      "    }  ",
-      "}  ",
-      "if (n > 2)  primefactor.pb(n);"
+      "bool isPrime(int n)",
+      "{",
+      "    if (n <= 1)",
+      "        return false;",
+      "    if (n <= 3)",
+      "        return true;",
+      "    if (n % 2 == 0 || n % 3 == 0)",
+      "        return false;",
+      "    for (int i = 5; i * i <= n; i = i + 6)",
+      "        if (n % i == 0 || n % (i + 2) == 0)",
+      "            return false;",
+      "  ",
+      "    return true;",
+      "}"
     ],
-    "description": "primefector"
+    "description": "isprime"
   },
   "SieveOfEratosthenes": {
     "prefix": "sieve",
@@ -235,8 +235,6 @@
       "",
       "void sieve(int n)",
       "{",
-      "    n += 100;",
-      "",
       "    for (int i = 3; i <= n; i += 2)",
       "    {",
       "        is_prime[i] = 1;",
@@ -269,26 +267,39 @@
     ],
     "description": ""
   },
-  "isprime": {
-    "prefix": "isprime",
+  "primefactorization": {
+    "prefix": "primefactorization",
     "body": [
-      "bool isPrime(int n)",
+      "vector<ll> PrimeFactors;",
+      "",
+      "void PrimeFactorization(ll n)",
       "{",
-      "    if (n <= 1)",
-      "        return false;",
-      "    if (n <= 3)",
-      "        return true;",
-      "    if (n % 2 == 0 || n % 3 == 0)",
-      "        return false;",
-      "    for (int i = 5; i * i <= n; i = i + 6)",
-      "        if (n % i == 0 || n % (i + 2) == 0)",
-      "            return false;",
-      "  ",
-      "    return true;",
+      "    PrimeFactors.clear();",
+      "    // Call sieve function first for access primes till n",
+      "    for (auto p : primes)",
+      "    {",
+      "        if (1LL * p * p > n)",
+      "        {",
+      "            break;",
+      "        }",
+      "        else if (n % p == 0)",
+      "        {",
+      "            while (n % p == 0)",
+      "            {",
+      "                PrimeFactors.push_back(p);",
+      "                n /= p;",
+      "            }",
+      "        }",
+      "    }",
+      "    if (n > 1)",
+      "    {",
+      "        PrimeFactors.push_back(n);",
+      "    }",
       "}"
     ],
-    "description": "isprime"
+    "description": "primefector"
   },
+
   "lcm": {
     "prefix": "lcm",
     "body": [
