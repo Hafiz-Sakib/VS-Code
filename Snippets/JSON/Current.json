@@ -296,9 +296,10 @@
     ],
     "description": "primefector"
   },
-  "OneToNPrimeFactors": {
-    "prefix": "OneToNPrimeFactors",
+  "OneToNPrimeFactorization": {
+    "prefix": "OneToNPrimeFactorization",
     "body": [
+      "",
       "vector<vector<ll>> PrimeFactors(mx);",
       "",
       "void PrimeFactorization(ll n)",
@@ -312,18 +313,18 @@
       "        }",
       "    }",
       "",
-      "    for (int i = 1; i <= n; i++)",
-      "    {",
-      "        cout << i << \" : \";",
-      "        for (auto u : PrimeFactors[i])",
-      "        {",
-      "            cout << u << ' ';",
-      "        }",
-      "        cout << endl;",
-      "    }",
+      "    // for (int i = 1; i <= n; i++)",
+      "    // {",
+      "    //     cout << i << \" : \";",
+      "    //     for (auto u : PrimeFactors[i])",
+      "    //     {",
+      "    //         cout << u << ' ';",
+      "    //     }",
+      "    //     cout << endl;",
+      "    // }",
       "}"
     ],
-    "description": "OneToNPrimeFactors"
+    "description": "OneToNPrimeFactorization"
   },
   "lcm": {
     "prefix": "lcm",
