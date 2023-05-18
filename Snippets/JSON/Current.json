@@ -145,6 +145,7 @@
     ],
     "description": "unique"
   },
+
   "Divisors": {
     "prefix": "Divisors",
     "body": [
@@ -323,18 +324,6 @@
       "}"
     ],
     "description": "OneToNPrimeFactors"
-  },
-  "lcm": {
-    "prefix": "lcm",
-    "body": [
-      "ll int lcm(ll int a, ll int b) ",
-      "{",
-      "  return (a / gcd(a, b)) * b;",
-      "  ",
-      "  //return (a / __gcd(a, b)) * b;",
-      "}"
-    ],
-    "description": "lcm"
   },
   " lcm": {
     "prefix": "memset",
