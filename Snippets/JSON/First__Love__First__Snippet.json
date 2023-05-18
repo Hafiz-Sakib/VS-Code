@@ -180,6 +180,63 @@
     "description": "unique"
   },
 
+  "Divisors": {
+    "prefix": "Divisors",
+    "body": [
+      "vector<ll> Divisors;",
+      "",
+      "void Divisor(ll n)",
+      "{",
+      "    Divisors.clear();",
+      "",
+      "    for (int i = 1; (i * i) <= n; i++)",
+      "    {",
+      "        if (n % i == 0)",
+      "        {",
+      "            Divisors.push_back(i);",
+      "            if (n / i != i)",
+      "            {",
+      "                Divisors.push_back(n / i);",
+      "            }",
+      "        }",
+      "    }",
+      "",
+      "    sort(Divisors.begin(), Divisors.end());",
+      "}"
+    ],
+    "description": "Divisors"
+  },
+  "OneToNDivisors": {
+    "prefix": "OneToNDivisors",
+    "body": [
+      "",
+      "vector<vector<ll>> Divisors(mx);",
+      "",
+      "void OneToNDivisors(ll n)",
+      "{",
+      "    for (int i = 1; i <= n; i++)",
+      "    {",
+      "        for (int j = i; j <= n; j += i)",
+      "        {",
+      "            Divisors[j].push_back(i);",
+      "        }",
+      "    }",
+      "",
+      "    // for (int i = 1; i <= n; i++)",
+      "    // {",
+      "    //     cout << i << \" : \";",
+      "",
+      "    //     for (auto u : Divisors[i])",
+      "    //     {",
+      "    //         cout << u << ' ';",
+      "    //     }",
+      "",
+      "    //     cout << endl;",
+      "    // }",
+      "}"
+    ],
+    "description": "OneToNDivisors"
+  },
   "isprime": {
     "prefix": "isprime",
     "body": [
@@ -249,7 +306,7 @@
       "void PrimeFactorization(ll n)",
       "{",
       "    PrimeFactors.clear();",
-      "    // Call sieve function first for access primes till n",
+      "    // Call Sieve Function First",
       "    for (auto p : primes)",
       "    {",
       "        if (1LL * p * p > n)",
@@ -273,7 +330,35 @@
     ],
     "description": "primefector"
   },
-
+  "OneToNPrimeFactors": {
+    "prefix": "OneToNPrimeFactors",
+    "body": [
+      "vector<vector<ll>> PrimeFactors(mx);",
+      "",
+      "void PrimeFactorization(ll n)",
+      "{",
+      "    // Call Sieve Function First",
+      "    for (auto p : primes)",
+      "    {",
+      "        for (int i = p; i <= n; i += p)",
+      "        {",
+      "            PrimeFactors[i].push_back(p);",
+      "        }",
+      "    }",
+      "",
+      "    for (int i = 1; i <= n; i++)",
+      "    {",
+      "        cout << i << \" : \";",
+      "        for (auto u : PrimeFactors[i])",
+      "        {",
+      "            cout << u << ' ';",
+      "        }",
+      "        cout << endl;",
+      "    }",
+      "}"
+    ],
+    "description": "OneToNPrimeFactors"
+  },
   "lcm": {
     "prefix": "lcm",
     "body": [
