@@ -251,6 +251,26 @@
     "description": "unique"
   },
 
+  "Comparator": {
+    "prefix": "Comparator",
+    "body": [
+      "bool cmp(pair<int, int> a, pair<int, int> b)",
+      "{",
+      "    // first smaller,second greater",
+      "    if (a.first < b.first)",
+      "    {",
+      "        return 1;",
+      "    }",
+      "    else if (a.first == b.first)",
+      "    {",
+      "        return a.second > b.second;",
+      "    }",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Comparator"
+  },
+
   "Divisors": {
     "prefix": "Divisors",
     "body": [
@@ -342,6 +362,73 @@
     ],
     "description": "NOD"
   },
+
+  "SODSeries": {
+    "prefix": "SODSeries",
+    "body": [
+      "ll SOD(ll n)",
+      "{",
+      "    ll ans = 1;",
+      "    for (auto p : primes)",
+      "    {",
+      "        if (1LL * p * p > n)",
+      "        {",
+      "            break;",
+      "        }",
+      "        else if (n % p == 0)",
+      "        {",
+      "            ll CurrentSum = 1, PowerOfPrime = 1;",
+      "            while (n % p == 0)",
+      "            {",
+      "                PowerOfPrime *= p;",
+      "                CurrentSum += PowerOfPrime;",
+      "                n /= p;",
+      "            }",
+      "            ans *= CurrentSum;",
+      "        }",
+      "    }",
+      "    if (n > 1)",
+      "    {",
+      "        ans *= (n + 1);",
+      "    }",
+      "    return ans;",
+      "}"
+    ],
+    "description": "SODSeries"
+  },
+  "SODFormula": {
+    "prefix": "SODFormula",
+    "body": [
+      "ll SODFormula(ll n)",
+      "{",
+      "    ll ans = 1;",
+      "    for (auto p : primes)",
+      "    {",
+      "        if (1LL * p * p > n)",
+      "        {",
+      "            break;",
+      "        }",
+      "        else if (n % p == 0)",
+      "        {",
+      "            ll CurrentSum = 1, PowerOfPrime = p;",
+      "            while (n % p == 0)",
+      "            {",
+      "                PowerOfPrime *= p;",
+      "                n /= p;",
+      "            }",
+      "            ans *= ((PowerOfPrime - 1) / (p - 1));",
+      "        }",
+      "    }",
+      "    if (n > 1)",
+      "    {",
+      "        ans *= (n + 1);",
+      "    }",
+      "    return ans;",
+      "}"
+    ],
+    "description": "SODFormula"
+  },
+
   "isprime": {
     "prefix": "isprime",
     "body": [
@@ -369,7 +456,7 @@
       "bitset<mx> is_prime;",
       "vector<int> primes;",
       "",
-      "void sieve(int n)",
+      "void Sieve(int n)",
       "{",
       "    for (int i = 3; i <= n; i += 2)",
       "    {",
@@ -465,8 +552,9 @@
     ],
     "description": "OneToNPrimeFactorization"
   },
+
+  "prefix": "lcm",
   "lcm": {
-    "prefix": "lcm",
     "body": [
       "ll int lcm(ll int a, ll int b) ",
       "{",
