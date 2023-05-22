@@ -359,6 +359,24 @@
     "description": "SODFormula"
   },
 
+  "SNOD": {
+    "prefix": "SNOD",
+    "body": [
+      "ll SNOD(ll n)",
+      "{",
+      "    ll ans = 0, u = sqrt(n);",
+      "    for (int i = 1; i <= u; i++)",
+      "    {",
+      "        ans += (n / i) - i;",
+      "    }",
+      "    ans *= 2;",
+      "    ans += u;",
+      "    return ans;",
+      "}"
+    ],
+    "description": "Sum of Number of Divisors from 1 to N"
+  },
+
   "isprime": {
     "prefix": "isprime",
     "body": [
