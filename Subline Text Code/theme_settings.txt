@@ -1,0 +1,19 @@
+VIDEO- https://youtu.be/tiEB69xGDfw
+
+{
+	"color_scheme": "Packages/Agila Theme/Agila Neon Monocyanide.tmTheme",
+	"darkmatter_sidebar_font_large": true,
+	"darkmatter_sidebar_tree_large": true,
+	"darkmatter_tabs_auto_width": true,
+	"darkmatter_tabs_font_normal": true,
+	"darkmatter_tabs_large": true,
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"save_on_focus_lost": true,
+	"theme": "Darkmatter.sublime-theme"
+}
+
+

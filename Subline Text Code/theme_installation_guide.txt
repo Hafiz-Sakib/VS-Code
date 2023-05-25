@@ -1,0 +1,2 @@
+I think you're facing error related to Agila  theme then press  CMD/CTRL + SHIFT + P. 
+Or you can directly go to Prefrences->Package Control  type install Package then Type Agila Theme and hit  Enter. Hope it helps
