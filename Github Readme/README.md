@@ -200,11 +200,8 @@
 # 📊 Contribution Graph
 
 <p align="center">
-<a href="https://github.com/Ashutosh00710/github-readme-activity-graph#gh-light-mode-only">
- <img src="https://github-readme-activity-graph.cyclic.app/graph?username=Hafiz-Sakib&theme=react-dark&area=true&hide_border=true#gh-light-mode-only" width="100%">
-</a>
 <a href="https://github.com/Ashutosh00710/github-readme-activity-graph#gh-dark-mode-only">
- <img src="https://github-readme-activity-graph.cyclic.app/graph?username=Hafiz-Sakib&theme=react-dark&area=true&hide_border=true#gh-dark-mode-only" width="100%">
+ <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hafiz-Sakib&theme=react-dark&area=true&hide_border=true#gh-light-mode-only" width="100%">
 </a>
 </p>
 
@@ -236,27 +233,12 @@
 
 </br>
 
-<!-- Viewers And Followers Section Started -->
-
-# <img src="https://i.postimg.cc/kGcZL8CT/bottle-with-popping-cork.gif" width="40px" align="center">Viewers and Followers <img src="https://i.postimg.cc/0jcWVsG3/clinking-beer-mugs.gif" width="40px" align="center">
-
-<div align="center">
- 
- </br>
-
-<a href="https://github.com/Meghna-DAS/github-profile-views-counter"><img src="https://komarev.com/ghpvc/?username=Hafiz-Sakib">
-</a> <a href="https://github.com/SubhamRaoniar28?tab=followers"><img src="https://img.shields.io/github/followers/Hafiz-Sakib?label=Followers&style=social" alt="GitHub Badge"></a>
-
-</div>
-
-<!-- Viewers And Followers Section Ended -->
-
 </br>
 
 <!-- Snake Eating Contribution Section Started -->
 
 <div align="center">
-  <h2><img src="https://i.postimg.cc/FFBBq02n/snake.gif" width="40px" align="center"> Snake eating my contribution <img src="https://i.postimg.cc/FFBBq02n/snake.gif" width="40px" align="center"></h2>
+  <h2><img src="https://i.postimg.cc/mg9xHQ5H/light-bulb.gif" width="40px" align="center"> My Contributions in Github <img src="https://i.postimg.cc/mg9xHQ5H/light-bulb.gif" width="40px" align="center"></h2>
   <br>
   <img alt="snake eating my contribution" src="https://github.com/Hafiz-Sakib/Hafiz-Sakib/blob/output/github-contribution-grid-snake.svg">
   <br>
