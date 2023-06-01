@@ -47,10 +47,11 @@ typedef set<string> ss;
 #define stringLower(data) transform(data.begin(), data.end(), data.begin(), ::tolower)
 #define stringUpper(data) transform(data.begin(), data.end(), data.begin(), ::toupper)
 
-const int mx = 1e8 + 123;
-const double eps = 1e-12;
 #define gcd(a, b) __gcd(a, b)
 #define lcm(a, b) ((a * b) / gcd(a, b))
+#define mod 1000000007
+const int mx = 1e8 + 123;
+const double eps = 1e-12;
 
 #define debug(x) cerr << x << endl;
 #define here fprintf(stderr, "====I am Here====\n");
