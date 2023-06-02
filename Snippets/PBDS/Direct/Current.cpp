@@ -66,8 +66,11 @@ typedef tree<ll, null_type, greater_equal<ll>, rb_tree_tag,
 #define here fprintf(stderr, "====I am Here====\n");
 #define setp(n) fixed << setprecision(n)
 
-const double eps = 1e-12;
+#define gcd(a, b) __gcd(a, b)
+#define lcm(a, b) ((a * b) / gcd(a, b))
+#define mod 1000000007
 const int mx = 1e8 + 123;
+const double eps = 1e-12;
 
 #define Boost                         \
     ios_base::sync_with_stdio(false); \

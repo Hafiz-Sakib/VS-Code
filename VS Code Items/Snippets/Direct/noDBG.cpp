@@ -83,7 +83,7 @@ typedef set<int>::iterator sit;
 #define gcd(a, b) __gcd(a, b)
 #define lcm(a, b) ((a) / gcd(a, b) * (b))
 #define sqr(a) ((a) * (a))
-#define MOD 1000000007
+#define mod 1000000007
 #define mx_int_prime 999999937
 
 const double PI = acos(-1);

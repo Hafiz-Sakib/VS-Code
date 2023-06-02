@@ -15,6 +15,7 @@
       "#define vi vector<ll>",
       "#define yes cout<<\"YES\\n\"",
       "#define no cout<<\"NO\\n\"",
+      "#define mod 1000000007",
       "#define ignore cin.ignore(numeric_limits<streamsize>::max(),'\\n')",
       "#define Boost ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)",
       "",
@@ -372,6 +373,28 @@
     ],
     "description": "OneToNPrimeFactorization"
   },
+
+  "BinaryExponentiation": {
+    "prefix": "BinaryExponentiation",
+    "body": [
+      "int BinaryExponentiation(int b, int p)",
+      "{",
+      "    int ans = 1;",
+      "    while (p)",
+      "    {",
+      "        if (p & 1)",
+      "        {",
+      "            ans = (ans * 1LL * b) % mod;",
+      "        }",
+      "        b = (b * 1LL * b) % mod;",
+      "        p >>= 1;",
+      "    }",
+      "    return ans;",
+      "}"
+    ],
+    "description": "BinaryExponentiation"
+  },
+
   "Binary Search": {
     "prefix": "binarysrc",
     "body": [

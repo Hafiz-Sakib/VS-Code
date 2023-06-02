@@ -11,6 +11,7 @@ using namespace std;
 #define vi vector<ll>
 #define yes cout << "YES\n"
 #define no cout << "NO\n"
+#define mod 1000000007
 #define ignore cin.ignore(numeric_limits<streamsize>::max(), '\n')
 #define Boost                         \
     ios_base::sync_with_stdio(false); \

@@ -102,10 +102,12 @@
       "#define stringLower(data) transform(data.begin(), data.end(), data.begin(), ::tolower)",
       "#define stringUpper(data) transform(data.begin(), data.end(), data.begin(), ::toupper)",
       "",
+      "#define here fprintf(stderr, \"====I am Here====\\n\");",
+      "",
       "#define gcd(a,b) __gcd(a,b)",
       "#define lcm(a, b) ((a)/gcd(a, b)*(b))",
       "#define sqr(a) ((a) * (a))",
-      "#define MOD 1000000007",
+      "#define mod 1000000007",
       "#define mx_int_prime 999999937",
       "",
       "const double PI = acos(-1);",
@@ -118,8 +120,6 @@
       "",
       "",
       "//Debugger Started",
-
-      "#define here fprintf(stderr, \"====I am Here====\\n\");",
 
       "template < typename F, typename S >",
       "ostream& operator << ( ostream& os, const pair< F, S > & p ) {",
@@ -602,11 +602,28 @@
     ],
     "description": "lcm"
   },
-  " lcm": {
-    "prefix": "memset",
-    "body": ["memset($1,0,sizeof($1));"],
-    "description": "lcm"
+
+  "BinaryExponentiation": {
+    "prefix": "BinaryExponentiation",
+    "body": [
+      "int BinaryExponentiation(int b, int p)",
+      "{",
+      "    int ans = 1;",
+      "    while (p)",
+      "    {",
+      "        if (p & 1)",
+      "        {",
+      "            ans = (ans * 1LL * b) % mod;",
+      "        }",
+      "        b = (b * 1LL * b) % mod;",
+      "        p >>= 1;",
+      "    }",
+      "    return ans;",
+      "}"
+    ],
+    "description": "BinaryExponentiation"
   },
+
   "Graph Array": {
     "prefix": "grparr",
     "body": [
