@@ -499,7 +499,6 @@
     ],
     "description": "OneToNPrimeFactorization"
   },
-
   "lcm": {
     "prefix": "lcm",
     "body": [
