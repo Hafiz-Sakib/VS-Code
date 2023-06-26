@@ -329,6 +329,7 @@ ll modDiv(ll a, ll b)
 
 void Boom()
 {
+    // let's goooo...
 }
 
 int main()
@@ -336,7 +337,7 @@ int main()
     Boost;
 
     int t = 1;
-    // cin >> t;
+    cin >> t;
     while (t--)
     {
         Boom();

@@ -258,7 +258,7 @@ inline ll modDiv(ll a, ll b) { return modMul(a, modInverse(b)); }
 
 void Boom()
 {
-    cout << "Nice Snippet" << endl;
+    // let's goooo...
 }
 
 int main()
