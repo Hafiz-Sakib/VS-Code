@@ -1,0 +1,11 @@
+irm https://massgrave.dev/get | iex
+
+
+open powershell in adminstritive mode then paste this => then press 3
+
+
+
+
+office software download link :-
+
+https://massgrave.dev/office_c2r_links.html
