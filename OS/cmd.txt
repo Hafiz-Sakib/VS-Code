@@ -1,0 +1,7 @@
+color 2 & curl ascii.live/forrest
+
+color 2 & curl ascii.live/parrot
+
+curl parrot.live
+
+color 2 & curl ascii.live/rick
