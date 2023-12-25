@@ -559,5 +559,25 @@
       ""
     ],
     "description": "Lower Bound"
+  },
+  "DFS List": {
+    "prefix": "dfs",
+    "body": [
+      "bool vis[mx];",
+      "vector<vector<int>> adj(mx);",
+      "void dfs(int v)",
+      "{",
+      "    vis[v] = 1;",
+      "    // cout << v << \" -> \";",
+      "    for (auto child : adj[v])",
+      "    {",
+      "        if (!vis[child])",
+      "        {",
+      "            dfs(child);",
+      "        }",
+      "    }",
+      "}"
+    ],
+    "description": "DFS List"
   }
 }
