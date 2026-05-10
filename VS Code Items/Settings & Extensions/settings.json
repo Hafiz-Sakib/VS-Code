@@ -14,13 +14,13 @@
   "vsicons.dontShowNewVersionMessage": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "'operator mono','Fira Code','cascadia code',Consolas, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'Fira Code', monospace",
   "editor.fontLigatures": true,
   "editor.inlineSuggest.enabled": true,
-  "workbench.colorTheme": "Community Material Theme Ocean",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "javascript.updateImportsOnFileMove.enabled": "always",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
   "code-runner.runInTerminal": true,
   "settingsSync.ignoredSettings": [],
   "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
@@ -35,15 +35,45 @@
   "security.workspace.trust.untrustedFiles": "newWindow",
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
-  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.enableMultiLinePasteWarning": "auto",
   "editor.accessibilitySupport": "off",
   "git.openRepositoryInParentFolders": "always",
   "[python]": {
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.python"
   },
   "cph.general.defaultLanguage": "cpp",
   "window.zoomLevel": -2,
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
-  }
+  "hediet.vscode-drawio.resizeImages": null,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4-turbo",
+  "workbench.colorTheme": "Community Material Theme Ocean",
+  "workbench.preferredDarkColorTheme": "Community Material Theme Ocean",
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredHighContrastLightColorTheme": "Community Material Theme",
+  "liveServer.settings.donotVerifyTags": true,
+  "workbench.settings.applyToAllProfiles": [],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "pdflatex",
+      "command": "pdflatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "biber",
+      "command": "biber",
+      "args": ["%DOCFILE%"]
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "pdflatex → biber → pdflatex × 2",
+      "tools": ["pdflatex", "biber", "pdflatex", "pdflatex"]
+    }
+  ]
 }
