@@ -1,1 +1,0 @@
-How to Setup Background Image on Firefox Browser
