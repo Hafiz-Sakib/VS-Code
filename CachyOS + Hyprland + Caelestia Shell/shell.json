@@ -1,0 +1,76 @@
+{
+ "appearance": {
+   "transparency": {
+     "enabled": true
+   }
+ },
+
+ "background": {
+   "desktopClock": {
+     "enabled": true,
+     "scale": 1.0,
+     "position": "bottom-right",
+     "invertColors": false,
+     "background": {
+       "enabled": false,
+       "opacity": 0.7,
+       "blur": true
+     },
+     "shadow": {
+       "enabled": true,
+       "opacity": 0.7,
+       "blur": 0.4
+     }
+   }
+ },
+
+ "bar": {
+   "clock": {
+     "background": true,
+     "showDate": true
+   },
+
+   "statusIcons": [
+     {
+       "enabled": true,
+       "id": "lockStatus"
+     },
+     {
+       "enabled": false,
+       "id": "audio"
+     },
+     {
+       "enabled": false,
+       "id": "microphone"
+     },
+     {
+       "enabled": false,
+       "id": "kbLayout"
+     },
+     {
+       "enabled": true,
+       "id": "network"
+     },
+     {
+       "enabled": true,
+       "id": "bluetooth"
+     },
+     {
+       "enabled": true,
+       "id": "battery"
+     }
+   ]
+ },
+
+ "launcher": {
+   "maxWallpapers": 30,
+   "useFuzzy": {
+     "actions": true,
+     "apps": true
+   }
+ },
+
+ "services": {
+   "useFahrenheit": false
+ }
+}
